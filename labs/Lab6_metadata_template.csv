@@ -1,0 +1,17 @@
+id,profile,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin,notes
+FILL_IN,A1,P01,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-02,2026,2,9,Wound swab,R,Index case
+FILL_IN,A2,P02,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-06,2026,2,14,Wound swab,R,
+FILL_IN,A3,P03,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-11,2026,2,18,Wound swab,R,
+FILL_IN,A4,P04,District Hospital A (fictional),Maternity,Caesarean section,Theatre 2,2026-02-16,2026,2,23,Wound swab,R,Different ward - but same theatre (hidden link)
+FILL_IN,A5,P05,District Hospital A (fictional),Surgical Ward B,Hernia repair,Theatre 2,2026-02-20,2026,2,27,Wound swab,R,
+FILL_IN,A6,P06,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-25,2026,3,4,Wound swab,R,
+FILL_IN,A7,P07,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-03-02,2026,3,9,Wound swab,R,
+FILL_IN,A8,P08,District Hospital A (fictional),Surgical Ward B,Amputation,Theatre 2,2026-03-06,2026,3,13,Wound swab,R,
+FILL_IN,B1,P09,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 1,2026-02-12,2026,2,19,Wound swab,R,Same ward and same time - but is it related?
+FILL_IN,B2,P10,District Hospital A (fictional),Medical Ward,Not applicable,Not applicable,,2026,1,10,Blood culture,R,Non-surgical comparison
+FILL_IN,B3,P11,Referral Hospital C (fictional),Orthopaedics,Open fracture fixation,Theatre 1,2025-11-03,2025,11,10,Wound swab,R,Other hospital
+FILL_IN,B4,P12,Referral Hospital C (fictional),General Surgery,Laparotomy,Theatre 3,2025-12-15,2025,12,22,Wound swab,R,Other hospital
+FILL_IN,B5,P13,District Hospital A (fictional),Surgical Ward B,Hernia repair,Theatre 1,2025-09-08,2025,9,15,Wound swab,R,Same ward - 5 months earlier
+FILL_IN,B6,P14,District Hospital D (fictional),Maternity,Caesarean section,Theatre 1,2026-02-20,2026,2,27,Wound swab,R,Other hospital - same month
+FILL_IN,B7,P15,District Hospital A (fictional),Outpatient clinic,Not applicable,Not applicable,,2026,1,28,Skin abscess swab,R,Community-onset
+FILL_IN,B8,P16,Referral Hospital C (fictional),ICU,Not applicable,Not applicable,,2026,2,3,Wound swab,R,
