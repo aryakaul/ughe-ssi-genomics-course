@@ -4,7 +4,8 @@
 ---
 
 ## 1. Teaching team & principles
-- **Lead instructor** (lectures + live demos) and **≥ 1 helper per 6 participants** for labs
+- **Co-leads from UGHE and HMS** (lectures + live demos, shared between them) and **≥ 1 helper per 6 participants** for labs
+- **Trainee team** (4–6 trainees from UGHE and HMS): participants who also contribute to the literature review, workshop documentation and needs assessment, as committed in the planning grant. Each has a named mentor. See `resources/trainee_team_guide.md`. Treat them as colleagues: they join the dry run, can help during labs, and their logs drive the next version of the materials.
 - Helpers use **sticky notes**: participants put a **red** note on their laptop lid when stuck and a **green** one when finished (Carpentries practice)
 - **Live-code / live-click:** the instructor does each step on the projector *at participant pace*. Don't show slides of screenshots.
 - **Pair programming:** driver/navigator; swap at the points marked in each lab
@@ -15,6 +16,8 @@
 
 ## 2. Dry run (≥ 1 week before the course): REQUIRED
 Do the whole course yourself on **usegalaxy.eu** with the participants' setup (venue Wi-Fi if possible). Record actual run times.
+
+**Run the dry run together with the trainee team.** Each lab scribe runs their assigned lab end-to-end and fills in a lab log (template A in the trainee team guide). Fix handout errors they find *before* the course.
 
 | Check | Done |
 |---|---|
@@ -155,6 +158,9 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 
 ## 7. After the course
 - Collect and compare pre/post quizzes (match by code word), and summarise the exit tickets and evaluations
+- Hold the **documentation sprint** with the trainee team within 2 weeks. A UGHE and an HMS lead review and merge pull requests together. Tag a new release of the materials (e.g. `v1.1-2026-11`) and add contributors to the README
+- Share the quiz summary, action plans and evaluations (de-identified) with the trainee team for the **workshop needs summary** and the cohort report
+- File the evidence listed in the trainee team guide §7 for grant reporting
 - Share the folder, the pre-computed history link and the further-learning list with participants
 - Schedule the first monthly **data clinic** within 4 weeks
 - Collect the action plans and follow up at 3 months

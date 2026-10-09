@@ -1,0 +1,2 @@
+date,lab,step,problem_seen,how_often,cause,fix_applied,fixed_live_yes_no,suggested_handout_change,logged_by_role
+2026-11-05,Lab 2,D-I,Shovill does not list fastp outputs as inputs,several pairs,datatype set to fastqsanger not fastqsanger.gz,changed datatype via pencil icon,yes,add datatype tip before Shovill step,EXAMPLE ROW - delete

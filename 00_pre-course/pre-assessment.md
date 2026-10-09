@@ -66,5 +66,21 @@ a) Unrelated infections b) Possible transmission/outbreak c) Contamination of th
 | plan a genomic surveillance project | | | | | |
 
 ---
+**Needs assessment** *(Pre: answer N1–N3. Post: answer N4.)*
+*Anonymous. Summarised responses help plan future training and feed into the project's needs assessment.*
+
+**N1.** Your main role: ☐ Clinician ☐ Nurse/midwife ☐ Laboratory ☐ Public health / IPC ☐ Research ☐ Other: ________
+Institution: ☐ UGHE ☐ Butaro Hospital ☐ Other: ________
+
+**N2.** At your site, is there… *(Yes / No / Not sure)*
+- culture and antibiotic susceptibility testing? ____
+- long-term storage of bacterial isolates (e.g. freezer)? ____
+- internet reliable enough to use web tools like Galaxy? ____
+
+**N3.** What is the biggest barrier to using genomic data in your work? ______________________________
+
+**N4.** *(Post only)* What further training or support would help you most after this course? ______________________________
+
+---
 ### Answer key (facilitators only)
 1 b · 2 No: isolates or DNA can be sent to a partner, and the local skill is in sampling, metadata, analysis and action · 3 any of *S. aureus, E. coli, K. pneumoniae, P. aeruginosa, A. baumannii, Enterobacter* spp., *Enterococcus* · 4 a · 5 b · 6 b · 7 c · 8 b · 9 b · 10 b · 11 unknown mechanism; mutation not in database; low coverage; mixed culture; lab error · 12 b · 13 b · 14 b · 15 any of: collection date, facility, ward, specimen type, surgery type/date, AST results, organism, coded patient ID

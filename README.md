@@ -28,7 +28,8 @@ syllabus.md                 Full 2-day schedule, objectives, assessment  ← sta
 00_pre-course/              Setup checklist, datasets, pre/post quiz
 slides/                     Lecture outlines (L1–L5) with speaker notes
 labs/                       Step-by-step hands-on handouts (Lab 1–6)
-resources/                  Glossary, further learning, facilitator guide
+resources/                  Glossary, further learning, facilitator guide,
+                            trainee team guide + troubleshooting log
 ```
 
 ## How to use these materials
@@ -37,5 +38,15 @@ resources/                  Glossary, further learning, facilitator guide
 3. Convert the `slides/*.md` outlines into your slide software of choice. Each outline lists slide titles, key points, speaker notes and suggested figures.
 4. Print `labs/*.md` and `resources/glossary.md` for each participant, or share them as PDFs.
 
+## Ownership, trainees & contributing
+These materials are **jointly owned by the University of Global Health Equity (UGHE) and Harvard Medical School (HMS)**. They were developed under a planning grant that commits to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."*
+
+Each cohort includes a **trainee team** from both institutions. Trainees take the course, keep the literature review current, document what actually happens in the workshop, and analyse workshop needs data. They update these materials through GitHub pull requests, reviewed by a UGHE and an HMS maintainer. See `resources/trainee_team_guide.md`.
+
+### Contributors
+| Cohort | Name | Institution | Workstream / role |
+|---|---|---|---|
+| *November 2026* | *(to be added after the documentation sprint)* | | |
+
 ## Licence & attribution
-Labs adapt material from the **Galaxy Training Network** and **The Carpentries** (both CC-BY 4.0). Please keep the attributions in each handout. UGHE-authored content may be reused under CC-BY 4.0.
+Labs adapt material from the **Galaxy Training Network** and **The Carpentries** (both CC-BY 4.0). Please keep the attributions in each handout. Original content © UGHE and HMS contributors, reusable under CC-BY 4.0.

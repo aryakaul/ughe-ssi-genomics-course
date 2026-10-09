@@ -19,12 +19,21 @@ By the end of the course, participants will be able to:
 | LO4 | **Detect** AMR genes and mutations, and **interpret** them alongside phenotypic susceptibility results | L3, Lab 4 | Lab 4; Quiz Q9–11 |
 | LO5 | **Type** isolates (species, MLST, SNP distance) and **interpret** a phylogenetic tree to support or rule out an outbreak | L4, Lab 5, Lab 6 | Lab 6 presentation; Quiz Q12–14 |
 | LO6 | **Design** a sustainable, outsourced genomic surveillance workflow for their own setting | L2, L5, action planning | Action plan; Quiz Q15 |
+| LO7 | *Trainee team:* **Contribute** to the living literature review, **document** the workshop reproducibly (lab logs, troubleshooting log, FAQ, updated handouts via GitHub), and **analyse** workshop needs data | Reading list, dry run, daily huddles, documentation sprint | Merged handout updates; workshop needs summary; cohort report |
 
 ## Format
 - **2 days**, 08:30–17:00, about 50% hands-on
 - Participants work **in pairs**: one "driver" at the keyboard and one "navigator" reading the handout. They swap at each lab.
 - Each participant uses their own laptop with a modern web browser (see `00_pre-course/setup_checklist.md`)
-- Ratio of at least **1 helper per 6 participants** during labs
+- Ratio of at least **1 helper per 6 participants** during labs. Trainee team members who joined the dry run can act as additional helpers.
+
+## Trainee team and shared UGHE–HMS ownership
+The course is **jointly owned and co-led by UGHE and HMS**. It puts into practice the planning grant's commitment to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."* A **trainee team** of 4–6 trainees from both institutions takes the workshop as participants and contributes to three workstreams (details: `resources/trainee_team_guide.md`).
+
+- **Literature review:** an annotated reading list before the course; quarterly literature updates and journal club presentations afterwards.
+- **Workshop documentation:** trainees join the facilitator dry run, document 1–2 labs each during the course (lab scribe, troubleshooting logger, FAQ curator, screenshot lead), and release updated materials after a half-day documentation sprint.
+- **Needs assessment:** trainees support stakeholder-interview analysis under the approved protocol, and analyse the workshop's needs data (pre-course questionnaire, action plans, evaluations) into a summary for the grant's needs-assessment report.
+- **Shared ownership:** UGHE and HMS co-leads; materials co-maintained by both institutions; joint authorship; trainees credited as named contributors.
 
 ---
 
@@ -43,6 +52,7 @@ By the end of the course, participants will be able to:
 | 15:30–15:45 | *Break* | | |
 | 15:45–16:45 | **Lab 3 · A look under the hood: the command line.** Navigating folders, viewing files, counting reads with `wc` and `grep`. Connects directly to what Galaxy did in Lab 2 | Hands-on | `labs/Lab3_command_line_taster.md` |
 | 16:45–17:00 | Recap; **"muddiest point" exit ticket** (one sticky note: *What is still unclear?*) | — | |
+| 17:00–17:20 | **Trainee team huddle** (trainee team + UGHE and HMS leads): top problems of the day, urgent fixes for tomorrow's handouts, logs and screenshots saved | Trainee team | `resources/trainee_team_guide.md` |
 
 ## Day 2 — From genomes to surveillance action
 
@@ -59,6 +69,7 @@ By the end of the course, participants will be able to:
 | 15:15–16:00 | **L5 · Building a sustainable programme.** Sampling strategy; biobanking isolates; data management, ethics and sharing; reporting to clinicians; partners and funding; next learning steps | Lecture + discussion | `slides/L5_sustainable_program.md` |
 | 16:00–16:40 | **Action planning.** Each participant drafts a one-page plan for a genomic surveillance mini-project (template in L5) | Workshop | |
 | 16:40–17:00 | **Post-assessment**, course evaluation, certificates | — | |
+| 17:00–17:20 | **Trainee team wrap-up** (trainee team + leads): hand over logs, screenshots and needs data; set the date for the documentation sprint | Trainee team | `resources/trainee_team_guide.md` |
 
 ---
 
@@ -70,6 +81,7 @@ By the end of the course, participants will be able to:
 | Lab 6 group briefing | Applies LO3–LO5 to a realistic scenario |
 | One-page action plan | Applies LO6 to the participant's own setting |
 | Exit tickets and evaluation | Course improvement |
+| Trainee team deliverables | Annotated reading list; lab logs, troubleshooting log and merged handout updates; workshop needs summary (LO7) |
 
 ## Pre-course requirements
 - Laptop (Windows, macOS, Linux or ChromeOS) with Chrome or Firefox and at least 8 GB RAM recommended
@@ -80,4 +92,5 @@ By the end of the course, participants will be able to:
 ## After the course
 - All Galaxy histories stay in participants' accounts and can be re-run on new data
 - Suggested learning pathway: `resources/further_learning.md`
-- Recommended follow-up: a monthly 1-hour "genomics journal club / data clinic" for course graduates
+- **Documentation sprint** within 2 weeks: the trainee team releases updated materials for the next cohort and writes the workshop needs summary
+- Recommended follow-up: a monthly 1-hour "genomics journal club / data clinic" for course graduates, co-run by trainee team members, including quarterly literature updates
