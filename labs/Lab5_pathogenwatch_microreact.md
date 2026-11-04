@@ -3,9 +3,9 @@
 **Objective:** LO5 — Use free web platforms to type, screen and visualise a collection of genomes
 
 > **Scenario:** The IPC nurse at *District Hospital A (fictional)* is worried about a rise in MRSA SSIs on Surgical Ward B. The lab stored the isolates and sent them for Illumina sequencing, and your colleague assembled them in Galaxy. You now have **genomes from all the MRSA isolates from the past months** and want a quick overview.
-> *The genomes are real public data (see facilitator notes). The hospital, wards and dates are fictional.*
+> *The genomes are real public data. The hospital, wards and dates are fictional.*
 
-**Files from your facilitator** (shared Galaxy history `UGHE-SSI course – precomputed`, or USB):
+**Files from the instructor** (shared Galaxy history `UGHE-SSI course – precomputed` at https://usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed, or the USB stick):
 - `assemblies/` — one FASTA per isolate
 - `koser_tree.nwk` — phylogenetic tree (built in Galaxy with Snippy → IQ-TREE)
 - `lab6_metadata.csv` — patient, ward, procedure and date information
@@ -50,7 +50,7 @@ Fill in a table for **at least 6** genomes:
 2. Do all isolates have the **same** AMR profile? What does that suggest, and what does it **not** prove?
 3. In the tree, can you see a group of isolates on very **short** branches?
 
-> 💡 Pathogenwatch also lets you compare your genomes with **public genomes from around the world**. Try **"Find similar"** or the population view, if your facilitator enables it.
+> 💡 Pathogenwatch also lets you compare your genomes with **public genomes from around the world**. Try **"Find similar"** or the population view, if the instructor enables it.
 
 ---
 

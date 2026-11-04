@@ -4,7 +4,7 @@
 
 > **The isolate:** an MRSA strain (KUN1163) sequenced **twice**, once on Illumina and once on Oxford Nanopore. At the end, an Illumina pair and a Nanopore pair compare results.
 
-> ⏱ **Strategy:** assembly takes **20–60 minutes** on Galaxy. We **start the assembly early** and interpret QC while it runs. If it hasn't finished by 15:00, import the facilitator's pre-computed result (Part E).
+> ⏱ **Strategy:** assembly takes **20–60 minutes** on Galaxy. We **start the assembly early** and interpret QC while it runs. If it hasn't finished by 15:00, import the instructor's pre-computed result (Part E).
 
 ---
 
@@ -101,7 +101,7 @@ Fill in this table:
 
 ✍️ **Check yourself F:**
 1. Is your coverage above the minimum recommended (≈30× Illumina, ≈40–50× Nanopore)?
-2. The facilitator will show a FastQC report from a *bad* run. What looks different?
+2. The instructor will show a FastQC report from a *bad* run. What looks different?
 
 ### Part G — Assess the assembly with QUAST (15 min)
 When your assembly dataset turns green:
@@ -142,10 +142,10 @@ Pair up with a team from the other track and compare QUAST results:
 
 ## Part E — Fallback: import pre-computed results
 If your assembly is still running at 15:00:
-1. Go to **User → Histories shared with me** (or open the link from your facilitator)
-2. Open `UGHE-SSI course – precomputed`
-3. Drag the Shovill or Flye assembly and its QUAST report into your history
-4. Continue from Part G. **Your own job will keep running.** Check it tonight!
+1. Open the shared history (the link is also on the board): https://usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed
+2. Click **Import**. A copy of `UGHE-SSI course – precomputed` opens as your current history
+3. Use `Lab2_Illumina_Shovill_contigs.fasta` **or** `Lab2_Nanopore_Flye_assembly` and its QUAST report
+4. Continue from Part G. **Your own job will keep running** in your Lab 2 history. Check it tonight!
 
 ---
 

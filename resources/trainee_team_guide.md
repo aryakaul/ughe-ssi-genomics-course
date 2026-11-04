@@ -35,7 +35,7 @@ Report progress on each row in grant updates. §7 lists the evidence to keep for
 
 | When | What | Time |
 |---|---|---|
-| Before the course | Literature review tasks (§3); onboarding + facilitator dry run (§4) | ~1 day in total |
+| Before the course | Literature review tasks (§3); onboarding + instructor's dry run (§4) | ~1 day in total |
 | Course days | Take part in all labs; document 1–2 assigned labs; daily huddle | 2 days + 20 min/day |
 | ≤ 2 weeks after | Documentation sprint (§4); workshop needs-data analysis (§5) | ~1 day |
 | Ongoing (optional) | Quarterly literature update; monthly journal club / data clinic | ~2 h/month |
@@ -93,10 +93,10 @@ Everyone is a **participant first**. Each trainee documents **one or two labs** 
    - Agree on roles
    - Create GitHub accounts and get added to the course repo
    - Go through the templates below
-2. **Dry run (3 h):** join the facilitator dry run (`resources/facilitator_guide.md` §2)
+2. **Dry run (3 h):** join the instructor's dry run (`resources/instructor_guide.md` §2)
    - Each scribe runs **their** lab end-to-end
    - Log baseline timings and every mismatch with the handout
-   - Facilitators fix the handouts *before* the course where possible
+   - The instructor fixes the handouts *before* the course where possible
 3. **Set up** a shared folder (or `docs/cohort-YYYY-MM/` in the repo) for logs and screenshots
 
 ### During
@@ -115,7 +115,7 @@ Goal: release an improved version of the materials, e.g. **v1.1 – November 202
 |---|---|---|
 | Review lab logs, troubleshooting log and FAQ entries; agree on changes | Trainee team + both leads | 45 min |
 | Update handouts: fix steps, add screenshots, add "Common problems" boxes | Each scribe, their lab | 90 min |
-| Move recurring issues into the facilitator guide; add a FAQ section | Troubleshooting logger + FAQ curator | 45 min |
+| Move recurring issues into the instructor guide; add a FAQ section | Troubleshooting logger + FAQ curator | 45 min |
 | Submit GitHub pull requests; a lead from each institution reviews and merges | Each trainee / leads | 30 min |
 
 > **Learning GitHub:** for most trainees this will be their first pull request. The GitHub web interface ("Edit this file" → "Propose changes") is enough; no command line is needed. Pair each person with someone experienced for their first one.
@@ -139,7 +139,7 @@ The workshop itself generates needs-assessment evidence about training and capac
 | Source | What it tells us | Trainee task |
 |---|---|---|
 | **Pre-course questionnaire** (needs section of `00_pre-course/pre-assessment.md`) | Participants' roles, current access to lab and data resources, biggest barriers | Administer; tabulate responses |
-| **Pre/post quiz and self-ratings** | Knowledge and confidence gained, and what remains hard | Summarise with the facilitators |
+| **Pre/post quiz and self-ratings** | Knowledge and confidence gained, and what remains hard | Summarise with the instructor |
 | **One-page action plans** (L5) | Which surveillance questions participants want to answer, and the barriers they foresee | Code recurring needs and barriers |
 | **Exit tickets and course evaluation** | What was unclear; what further training is wanted | Group into themes |
 
@@ -162,7 +162,7 @@ The workshop itself generates needs-assessment evidence about training and capac
 - Named as **contributors** in the course `README.md`, with cohort, institution and workstream
 - **Certificate of contribution** in addition to the participation certificate
 - Joint UGHE–HMS **authorship** on the cohort report, the workshop needs summary, and any education or surveillance paper that uses this work
-- First option to serve as **helpers or co-facilitators** at future cohorts, where funding allows
+- First option to serve as **helpers or co-instructors** at future cohorts, where funding allows
 
 **Evidence to keep for grant reports**
 
@@ -198,7 +198,7 @@ One row per problem in `resources/troubleshooting_log.csv`.
 ### C. FAQ entry
 ```
 Q: (the participant's question, in their words)
-A: (the answer given, checked by a facilitator)
+A: (the answer given, checked by the instructor)
 Lab / topic: ____    Asked by how many people: ____
 ```
 

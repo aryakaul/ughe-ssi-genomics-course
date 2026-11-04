@@ -6,7 +6,7 @@
 
 ---
 
-## Part A — Files and folders: the 5-minute version (15 min, facilitator demo + discussion)
+## Part A — Files and folders: the 5-minute version (15 min, instructor demo + discussion)
 Everything in bioinformatics is a **file** in a **folder (directory)**. Three ideas are enough to begin:
 
 1. **A file name has a name and an extension:** `isolate01_R1.fastq.gz`
@@ -50,7 +50,7 @@ GHHGFGHIIIIIFIGGHGIFIIGHIHIGHIIGFHHDACBC      ← line 4: one quality symbol per
 | Q score | 2 | 10 | 20 | 30 | 40 |
 | Chance the base is wrong | ~63% | 1 in 10 | 1 in 100 | 1 in 1,000 | 1 in 10,000 |
 
-*Rule of thumb:* letters (`A`–`J`) are good; symbols like `#`, `$`, `%`, `&` are bad.
+*Rule of thumb:* capital letters (`A`–`J`) and `?` or `@` are good (Q30 and above); symbols like `#`, `$`, `%`, `&` are bad (below Q10).
 
 ✍️ **Check yourself B2:** Look at read 4 in Part C below. Which part of the read (start or end) has poor quality? What should we do with those bases?
 

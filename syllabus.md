@@ -31,7 +31,7 @@ By the end of the course, participants will be able to:
 The course is **jointly owned and co-led by UGHE and HMS**. It puts into practice the planning grant's commitment to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."* A **trainee team** of 4–6 trainees from both institutions takes the workshop as participants and contributes to three workstreams (details: `resources/trainee_team_guide.md`).
 
 - **Literature review:** an annotated reading list before the course; quarterly literature updates and journal club presentations afterwards.
-- **Workshop documentation:** trainees join the facilitator dry run, document 1–2 labs each during the course (lab scribe, troubleshooting logger, FAQ curator, screenshot lead), and release updated materials after a half-day documentation sprint.
+- **Workshop documentation:** trainees join the instructor's dry run, document 1–2 labs each during the course (lab scribe, troubleshooting logger, FAQ curator, screenshot lead), and release updated materials after a half-day documentation sprint.
 - **Needs assessment:** trainees support stakeholder-interview analysis under the approved protocol, and analyse the workshop's needs data (pre-course questionnaire, action plans, evaluations) into a summary for the grant's needs-assessment report.
 - **Shared ownership:** UGHE and HMS co-leads; materials co-maintained by both institutions; joint authorship; trainees credited as named contributors.
 
@@ -77,7 +77,7 @@ The course is **jointly owned and co-led by UGHE and HMS**. It puts into practic
 | Component | Purpose |
 |---|---|
 | Pre/post quiz (15 questions) | Measures knowledge gained; the same quiz is used at both points |
-| "Check yourself" questions in each lab | Immediate self-check; answers in the facilitator guide |
+| "Check yourself" questions in each lab | Immediate self-check; answers in the instructor guide |
 | Lab 6 group briefing | Applies LO3–LO5 to a realistic scenario |
 | One-page action plan | Applies LO6 to the participant's own setting |
 | Exit tickets and evaluation | Course improvement |

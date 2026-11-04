@@ -26,17 +26,24 @@ Both **Illumina** (short-read) and **Oxford Nanopore** (long-read) data are anal
 ```
 syllabus.md                 Full 2-day schedule, objectives, assessment  ← start here
 00_pre-course/              Setup checklist, datasets, pre/post quiz
-slides/                     Lecture outlines (L1–L5) with speaker notes
-labs/                       Step-by-step hands-on handouts (Lab 1–6)
-resources/                  Glossary, further learning, facilitator guide,
+slides/                     Lecture outlines (L1–L5, .md) with speaker notes,
+                            slide sources (.typ) and PDFs in slides/pdf/
+labs/                       Step-by-step hands-on handouts (Lab 1–6, .md);
+                            handout PDFs in labs/pdf/
+labs/slides/                Lab slide sources (.typ); PDFs in labs/slides/pdf/
+resources/                  Glossary, further learning, instructor guide,
                             trainee team guide + troubleshooting log
+build_slides.sh             Rebuilds every slide PDF (needs Typst)
+build_handouts.sh           Rebuilds the handout PDFs (needs pandoc + Typst)
 ```
 
 ## How to use these materials
-1. **Facilitators:** read `resources/facilitator_guide.md` first, then do the **dry run** described there at least one week before the course.
+1. **Instructor:** read `resources/instructor_guide.md` first, then do the **dry run** described there at least one week before the course.
 2. Send `00_pre-course/setup_checklist.md` to participants **two weeks** before the course.
-3. Convert the `slides/*.md` outlines into your slide software of choice. Each outline lists slide titles, key points, speaker notes and suggested figures.
-4. Print `labs/*.md` and `resources/glossary.md` for each participant, or share them as PDFs.
+3. Present the lectures from `slides/pdf/`. Speaker notes and figure ideas are in the matching `slides/*.md` outline.
+4. Print the handouts from `labs/pdf/` and `resources/glossary.md` for each participant, **and** share the handout PDFs digitally: participants copy reads, URLs and commands from them. After editing a handout, run `./build_handouts.sh` (needs `brew install pandoc typst`).
+5. Project `labs/slides/pdf/LabN_*.pdf` during each lab. They show the plan, the key settings, the "Check yourself" questions and the swap points; the handout keeps the full steps.
+6. **Editing slides:** change the `.typ` file next to the outline or handout, then run `./build_slides.sh` (needs Typst: `brew install typst`). Keep slides simple: one idea per slide, short phrases, large text. If the script warns that a slide overflowed, split it rather than shrinking the text.
 
 ## Ownership, trainees & contributing
 These materials are **jointly owned by the University of Global Health Equity (UGHE) and Harvard Medical School (HMS)**. They were developed under a planning grant that commits to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."*

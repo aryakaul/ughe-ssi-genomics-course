@@ -26,7 +26,7 @@ Galaxy is a free website for analysing biological data.
 
 ## 5. Trainee team only: GitHub account ☐
 If you are on the trainee team (see `resources/trainee_team_guide.md`):
-1. Create a free account at **https://github.com** and send your username to the lead facilitator, who will add you to the course repository
+1. Create a free account at **https://github.com** and send your username to the instructor, who will add you to the course repository
 2. Keep the half-day dry run (about 1 week before the course) and the half-day documentation sprint (within 2 weeks after) free in your calendar
 
 ## 6. Optional pre-reading (20 minutes) ☐
@@ -40,13 +40,13 @@ If you are on the trainee team (see `resources/trainee_team_guide.md`):
 
 ---
 
-### For facilitators: venue checklist
+### For the instructor: venue checklist
 - [ ] **Internet:** at least 20 Mbps shared, tested with 30 people in Galaxy at the same time. Have a **mobile hotspot backup**.
 - [ ] Power strips at every table
 - [ ] Projector + HDMI/USB-C adapters; a second screen for live demos if possible
 - [ ] Flip charts and markers (Lab 6 briefings), sticky notes (exit tickets)
 - [ ] Printed handouts: labs 1–6, glossary, quiz (×2 per person), action-plan template
 - [ ] **USB sticks** with offline copies of all datasets, pre-computed results and handouts (in case the internet fails)
-- [ ] Shared Galaxy history `UGHE-SSI course – precomputed` ready and **shared by link** (see facilitator guide)
-- [ ] Dry run completed ≥ 1 week before (see facilitator guide)
+- [ ] Shared Galaxy history `UGHE-SSI course – precomputed` ready and **shared by link** (see instructor guide)
+- [ ] Dry run completed ≥ 1 week before (see instructor guide)
 - [ ] Certificates printed

@@ -82,5 +82,5 @@ Institution: ☐ UGHE ☐ Butaro Hospital ☐ Other: ________
 **N4.** *(Post only)* What further training or support would help you most after this course? ______________________________
 
 ---
-### Answer key (facilitators only)
+### Answer key (instructor only)
 1 b · 2 No: isolates or DNA can be sent to a partner, and the local skill is in sampling, metadata, analysis and action · 3 any of *S. aureus, E. coli, K. pneumoniae, P. aeruginosa, A. baumannii, Enterobacter* spp., *Enterococcus* · 4 a · 5 b · 6 b · 7 c · 8 b · 9 b · 10 b · 11 unknown mechanism; mutation not in database; low coverage; mixed culture; lab error · 12 b · 13 b · 14 b · 15 any of: collection date, facility, ward, specimen type, surgery type/date, AST results, organism, coded patient ID

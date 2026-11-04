@@ -14,7 +14,7 @@
 3. In JupyterLab: **File → New → Terminal**
 4. You will see a prompt ending in `$`. This is where you type.
 
-> *If interactive tools are down:* use your own laptop's **Terminal** (macOS/Linux) or **Git Bash** (Windows). Your facilitator has offline copies of the files.
+> *If interactive tools are down:* use your own laptop's **Terminal** (macOS/Linux) or **Git Bash** (Windows). The instructor has offline copies of the files.
 
 ---
 
@@ -95,7 +95,7 @@ grep -c ">" DRR187559_contigs.fasta
 | Upload → Paste URL | `wget URL` |
 | 👁 eye icon | `head`, `less` |
 | Line/Word/Character count | `wc -l` |
-| Select lines matching an expression | `grep` |
+| *(not used today; the Galaxy tool is "Select lines that match an expression")* Searching inside a file | `grep` |
 | History | `history` (try it!) |
 
 **When you finish:** go back to Galaxy → **User → Active InteractiveTools** → **Stop** your JupyterLab, to free up resources.

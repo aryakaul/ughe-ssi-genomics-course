@@ -32,7 +32,7 @@ MRSA_contigs.fasta   saureus   ST?   arcC(?) aroE(?) glpF(?) gmk(?) pta(?) tpi(?
 2. What is the **ST**? Is it a well-known MRSA clone? *(Search "S. aureus ST___ MRSA" or use PubMLST.)*
 
 ### B2. (Optional, if time) Species check with Kraken2
-1. Tool **`Kraken2`** → input: `MRSA_contigs.fasta` → database: the one recommended by your facilitator → **Run**
+1. Tool **`Kraken2`** → input: `MRSA_contigs.fasta` → database: the one recommended by the instructor → **Run**
    - Turn on the option to **output a report** (Kraken-style report), then view it: what is the top species, and what percentage of contigs matched it?
 
 > 💡 *Why check species?* If the lab misidentified the organism or the culture was mixed, every downstream result is wrong. A total assembly length far from the expected genome size (Lab 2) is another warning sign.
@@ -100,7 +100,6 @@ The hospital microbiology lab sent this **AST report** for the isolate.
 | Trimethoprim-sulfamethoxazole | **S** | | | |
 | Vancomycin | **S** | | | |
 
-*Your facilitator will fill in the blank AST cells after the dry run, so that the report contains at least one deliberate disagreement.*
 
 ✍️ **Check yourself E:**
 1. Find every row where **genotype and phenotype disagree**. For each, list two possible explanations (see L3, Slide 7).

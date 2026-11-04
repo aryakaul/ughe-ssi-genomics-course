@@ -105,7 +105,7 @@ Use this template (one flip-chart page or 3 slides):
 ---
 
 ## Part E — Briefings (15 min, plenary)
-Each group gets **5 minutes** to present to the "IPC committee" (facilitators + one participant group acting as committee members). The committee must ask at least one question:
+Each group gets **5 minutes** to present to the "IPC committee" (the instructor + one participant group acting as committee members). The committee must ask at least one question:
 - *"Should we close Ward B?"*
 - *"Is it the surgeons' fault?"*
 - *"How sure are you?"*
@@ -113,7 +113,7 @@ Each group gets **5 minutes** to present to the "IPC committee" (facilitators + 
 
 ---
 
-## The reveal (facilitator, 5 min)
+## The reveal (instructor, 5 min)
 The genomes come from **Köser et al., *N Engl J Med* 2012**: an investigation of a suspected MRSA outbreak in a **special care baby unit** (neonatal unit) in Cambridge, UK. Rapid whole-genome sequencing distinguished the outbreak isolates from unrelated MRSA that looked identical on routine lab tests, and showed transmission that conventional methods had not resolved. A follow-up study (Harris et al., *Lancet Infect Dis* 2013) used genomics to trace transmission into the community and identify a **staff carrier**, which ended the outbreak.
 
 **Take-home messages:**

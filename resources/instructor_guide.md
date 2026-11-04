@@ -1,10 +1,10 @@
-# Facilitator Guide
+# Instructor Guide
 *Read this first. It covers the dry run, building the pre-computed history, mapping the case-study metadata, timing, troubleshooting and answer keys.*
 
 ---
 
 ## 1. Teaching team & principles
-- **Co-leads from UGHE and HMS** (lectures + live demos, shared between them) and **≥ 1 helper per 6 participants** for labs
+- **One instructor** leads all lectures and live demos, with **≥ 1 helper per 6 participants** for labs
 - **Trainee team** (4–6 trainees from UGHE and HMS): participants who also contribute to the literature review, workshop documentation and needs assessment, as committed in the planning grant. Each has a named mentor. See `resources/trainee_team_guide.md`. Treat them as colleagues: they join the dry run, can help during labs, and their logs drive the next version of the materials.
 - Helpers use **sticky notes**: participants put a **red** note on their laptop lid when stuck and a **green** one when finished (Carpentries practice)
 - **Live-code / live-click:** the instructor does each step on the projector *at participant pace*. Don't show slides of screenshots.
@@ -36,7 +36,7 @@ Do the whole course yourself on **usegalaxy.eu** with the participants' setup (v
 ---
 
 ## 3. Building the shared pre-computed history
-Create a history named **`UGHE-SSI course – precomputed`**. When finished: **History options → Share & manage access → Make accessible via link**, and put the link on the course page/slides.
+Create a history named **`UGHE-SSI course – precomputed`**. When finished: **History options → Share & manage access → Make accessible via link**, and put the link on the course page/slides. Current link: https://usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed (participants open it and click **Import**).
 
 ### 3a. Lab 2 fallbacks
 Run Lab 2 (both tracks) yourself and keep: the fastp reports, the **Shovill contigs**, the **Flye assembly**, and both **QUAST** reports.

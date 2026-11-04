@@ -1,5 +1,5 @@
 # Datasets & Background References
-*All accessions and links below were checked on **6 October 2026** (HTTP 200 / ENA Portal API). Re-check them during the facilitator dry run.*
+*All accessions and links below were checked on **6 October 2026** (HTTP 200 / ENA Portal API). Re-check them during the instructor's dry run.*
 
 ---
 
@@ -42,9 +42,9 @@
 
 FASTQ URL pattern: `ftp.sra.ebi.ac.uk/vol1/fastq/ERR103/ERR103395/ERR103395_1.fastq.gz` (and `_2`). Galaxy can also import them directly with **"Faster Download and Extract Reads in FASTQ"** (fasterq-dump) using the run accessions.
 
-**Important for facilitators:**
+**Important for the instructor:**
 - Collection dates and ward timelines are **in the paper, not in ENA**. The paper reports that some isolates belonged to the outbreak and others were unrelated controls.
-- **Do not** guess which sample is which from the B/C suffixes. During the dry run, assemble all 14 isolates (Shovill), build the tree and SNP matrix, and match the cluster to the paper. Then fill in `labs/Lab6_metadata_template.csv` (instructions in the facilitator guide).
+- **Do not** guess which sample is which from the B/C suffixes. During the dry run, assemble all 14 isolates (Shovill), build the tree and SNP matrix, and match the cluster to the paper. Then fill in `labs/Lab6_metadata_template.csv` (instructions in the instructor guide).
 - Lab 6 places these real genomes in a **fictional Rwandan surgical-ward scenario**. The genomic relationships are real; the ward and dates are invented for teaching. Tell participants this, and reveal the real study at the end.
 
 **Pre-computed outputs to prepare in the dry run** (save to a **shared Galaxy history** named `UGHE-SSI course – precomputed`):

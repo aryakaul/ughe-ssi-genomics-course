@@ -66,7 +66,9 @@
 - *Figure idea:* one genome → five outputs, as a fan diagram
 
 ### Slide 9 — Case example: genomics changing an outbreak response
-- Example: Köser et al., *NEJM* 2012 and Harris et al., *Lancet Infect Dis* 2013. MRSA on a neonatal unit in Cambridge, UK. WGS showed which cases were linked, identified a staff carrier, and ended an outbreak that conventional methods had missed.
+- Example: MRSA on a neonatal unit in Cambridge, UK.
+  - Köser et al., *NEJM* 2012: rapid WGS separated the linked outbreak isolates from unrelated MRSA that looked identical on routine lab tests
+  - Harris et al., *Lancet Infect Dis* 2013: follow-up sequencing traced transmission into the community and identified a staff carrier, which ended the outbreak
 - Message: **genomics changed the IPC decision**
 - *Speaker note:* We'll return to this kind of reasoning in Lab 6.
 
