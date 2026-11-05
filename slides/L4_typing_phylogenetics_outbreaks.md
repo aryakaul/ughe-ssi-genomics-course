@@ -30,7 +30,7 @@
 - **Few SNPs** → recently shared ancestor → possibly linked transmission
 - **Many SNPs** → not recent transmission
 - Approximate rules of thumb (they vary by species and study):
-  - *S. aureus*: ≤ ~15–25 SNPs suggests possible transmission
+  - *S. aureus*: ≤ ~15–30 SNPs suggests possible transmission (Lab 6 uses ≤ 30)
   - *K. pneumoniae* / *E. coli*: ≤ ~10–25 SNPs is often used
 - **Thresholds are guides, not laws.** Always combine them with epidemiology.
 

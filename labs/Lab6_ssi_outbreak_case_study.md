@@ -53,7 +53,7 @@ From Pathogenwatch, list each isolate's ST. Group the isolates by ST.
 ### B2. SNP distances
 Open the SNP matrix. Each cell is the number of single-letter differences between two isolates.
 
-- Highlight all pairs with **≤ 15 SNPs** (a common working threshold for possible recent *S. aureus* transmission; see L4)
+- Highlight all pairs with **≤ 30 SNPs** (our working threshold for possible recent *S. aureus* transmission; published thresholds vary, see L4)
 - Which isolates form a **cluster** (all closely related to each other)?
 
 | Cluster | Isolates (patient codes) | SNP range within cluster | Closest outside isolate (SNPs) |

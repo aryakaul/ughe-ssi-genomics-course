@@ -49,7 +49,7 @@
     - *Many SNPs* → not recent transmission
   ][
     #tip(label: "Rough guide (varies by study)")[
-      _S. aureus_: *≤ 15–25 SNPs* \
+      _S. aureus_: *≤ 15–30 SNPs* \
       _K. pneumoniae_, _E. coli_: *≤ 10–25 SNPs*
     ]
     #v(0.3em)

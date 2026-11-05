@@ -1,0 +1,15 @@
+id,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin
+MRSA_12C,P01,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-02,2026,2,9,Wound swab,R
+MRSA_1B,P02,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-06,2026,2,14,Wound swab,R
+MRSA_7C,P03,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-11,2026,2,18,Wound swab,R
+MRSA_8C,P04,District Hospital A (fictional),Maternity,Caesarean section,Theatre 2,2026-02-16,2026,2,23,Wound swab,R
+MRSA_10C,P05,District Hospital A (fictional),Surgical Ward B,Hernia repair,Theatre 2,2026-02-20,2026,2,27,Wound swab,R
+MRSA_11C,P06,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-25,2026,3,4,Wound swab,R
+MRSA_6C,P07,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-03-02,2026,3,9,Wound swab,R
+MRSA_20B,P08,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 1,2026-02-12,2026,2,19,Wound swab,R
+MRSA_16B,P09,District Hospital A (fictional),Medical Ward,Not applicable,Not applicable,,2026,1,10,Blood culture,R
+MRSA_15C,P10,Referral Hospital C (fictional),Orthopaedics,Open fracture fixation,Theatre 1,2025-11-03,2025,11,10,Wound swab,R
+MRSA_19B,P11,Referral Hospital C (fictional),General Surgery,Laparotomy,Theatre 3,2025-12-15,2025,12,22,Wound swab,R
+MRSA_14C,P12,District Hospital A (fictional),Surgical Ward B,Hernia repair,Theatre 1,2025-09-08,2025,9,15,Wound swab,R
+MRSA_18B,P13,District Hospital D (fictional),Maternity,Caesarean section,Theatre 1,2026-02-20,2026,2,27,Wound swab,R
+MRSA_17B,P14,District Hospital A (fictional),Outpatient clinic,Not applicable,Not applicable,,2026,1,28,Skin abscess swab,R

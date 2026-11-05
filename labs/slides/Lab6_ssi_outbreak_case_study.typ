@@ -78,11 +78,11 @@
 
 #slide(part: "Part B", time: "25 min", title: "What does the genome say?")[
   + *Sequence types:* group the isolates by ST (Pathogenwatch)
-  + *SNP distances:* highlight all pairs *≤ 15 SNPs* apart
+  + *SNP distances:* highlight all pairs *≤ 30 SNPs* apart
   + Which isolates form a *cluster*, all close to each other?
   + *Tree:* colour by *ward*, then by *theatre*. Is the cluster a tight group on short branches?
   #v(0.2em)
-  #text(size: 16pt, fill: muted)[≤ 15 SNPs: a common working threshold for possible recent _S. aureus_ transmission]
+  #text(size: 16pt, fill: muted)[≤ 30 SNPs: our working threshold for possible recent _S. aureus_ transmission. Published thresholds vary.]
 ]
 
 #slide(part: "Part C", time: "20 min", title: "Put genomics and epidemiology together")[

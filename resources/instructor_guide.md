@@ -80,7 +80,7 @@ The template has **fictional** patient profiles:
 - **B1–B8: background profile.** Different hospitals, wards, times, plus **B1**: *same ward and same time* but Theatre 1
 
 **Procedure**
-1. From the tree and SNP matrix (§3b), identify the **tight cluster** (pairwise SNPs small, e.g. ≤ ~15–20). Cross-check it with the outbreak isolates described in **Köser et al. 2012**.
+1. From the tree and SNP matrix (§3b), identify the **tight cluster** (pairwise SNPs small; with this pipeline the Köser cluster is ≤ 29, so Lab 6 uses ≤ 30). Cross-check it with the outbreak isolates described in **Köser et al. 2012**.
    - ⚠️ **Do not** infer cluster membership from the B/C suffix in the sample names.
 2. Assign **A-profiles** to the cluster isolates (A1 = the earliest; always include **A4**, the hidden theatre link). Assign **B-profiles** to non-cluster isolates.
    - Put **B1** on a non-cluster isolate, ideally the **same ST** as the cluster but with many SNPs. This is the key teaching point: *same ward, same time, same antibiogram, but not linked*.
@@ -158,12 +158,17 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 - **E:** Gentamicin **S** vs *aac(6')-aph(2'')* present → **disagreement**. Possible explanations: gene not expressed or truncated; AST error; breakpoint or method issues; mixed culture. Report the genotype as **"resistance gene detected, phenotype susceptible: interpret with caution / repeat AST"**. The genome **complements** AST and does **not replace** it for treatment decisions.
 
 ### Labs 5–6
-*Fill in after the dry run:*
-- STs in the collection: ______
-- Cluster isolates (ID → profile): ______
-- Within-cluster SNP range: ______ ; closest non-cluster isolate: ______ SNPs
-- B1 isolate (same ward/time, not linked): ______ , ______ SNPs from the cluster
-- **Expected conclusions:** a genomic cluster consistent with transmission among the A-profile patients; **A4** (Maternity) is linked through **Theatre 2**, which suggests a theatre-associated source (staff carrier, equipment, environment), not "the ward". **B1** shows that same ward + same time + same antibiogram ≠ linked. Closing Ward B alone would **not** address the theatre route. Recommended actions: theatre IPC audit, screening of Theatre 2 staff (with consent and support), environmental sampling, enhanced surveillance, and sequencing new cases promptly.
+- **Lab 5, Check yourself A:** (1) 4 STs. (2) AMR determinants are **identical within each ST** (Pathogenwatch, November 2026). So all ten ST22 isolates, outbreak or not, look the same: a shared AMR profile suggests but does **not** prove relatedness.
+- **ST22 AMR profile** (Pathogenwatch report for MRSA_6C): *mecA*, *blaZ* (methicillin, penicillin) · *aacA-aphD*, *aadD* (gentamicin, tobramycin, kanamycin, amikacin) · *ermC* on a rep10 plasmid contig (erythromycin; inducible clindamycin) · **_ileS-2_ on a rep15/rep21 plasmid contig (mupirocin)** · *grlA* S80F + *gyrA* S84L (ciprofloxacin). No vancomycin, linezolid, tetracycline, trimethoprim or rifampicin determinants. (3) Yes: the 7 cluster isolates sit on very short branches.
+*From the November 2026 run: Snippy against the complete ST22 EMRSA-15 genome HE681097.1 → snippy-core → IQ-TREE (cleaned full alignment) and snp-dists (core alignment). Files in `labs/data/`.*
+- **STs in the collection (Pathogenwatch): 4 different STs.** ST22 × 10 (all 7 cluster isolates + 15C, 19B, 20B) · ST1 × 2 (16B, 17B) · ST36 × 1 (18B) · ST5 × 1 (14C). Pathogenwatch took only a few minutes for all 14 genomes.
+- **Cluster (7 isolates) → profile / patient:** MRSA_12C → A1/P01 · MRSA_1B → A2/P02 · MRSA_7C → A3/P03 · **MRSA_8C → A4/P04 (Maternity, Theatre 2: the hidden link)** · MRSA_10C → A5/P05 · MRSA_11C → A6/P06 · MRSA_6C → A7/P07
+- **Within-cluster SNPs:** 9–29 among the six core isolates; **MRSA_6C is 57–76** from them. Köser et al. report one outbreak isolate as a *hypermutator* with more SNPs than the others, which fits 6C. Expect groups to call P07 "uncertain" under a strict threshold: a good discussion of why thresholds are guides, not laws.
+- **Closest non-cluster isolate:** MRSA_20B, 181–235 SNPs from the cluster
+- **B1 → MRSA_20B / P08** (Surgical Ward B, same time, Theatre 1): close to the reference lineage but 181+ SNPs from every cluster isolate, and it is **ST22, the same ST as the cluster**: *same ward + same time + same antibiogram + same ST ≠ linked*. Only the SNP distance separates it.
+- **Other non-cluster isolates:** MRSA_16B → B2/P09 · MRSA_15C → B3/P10 · MRSA_19B → B4/P11 · MRSA_14C → B5/P12 · MRSA_18B → B6/P13 · MRSA_17B → B7/P14 (profiles A8 and B8 dropped; patient codes renumbered P01–P14)
+- *Caveat:* 14C, 16B, 17B and 18B are a different lineage (15,000–43,000 SNPs from the reference), so their distances to each other are unreliable with this reference (16B–17B shows 432 here but 1 SNP when mapped to 17B's own assembly). They are clearly unrelated to the cluster either way.
+- **Expected conclusions:** a genomic cluster consistent with transmission among the A-profile patients; **A4** (Maternity) is linked through **Theatre 2**, which suggests a theatre-associated source (staff carrier, equipment, environment), not "the ward". **B1** shows that same ward + same time + same antibiogram ≠ linked. Closing Ward B alone would **not** address the theatre route. Recommended actions: theatre IPC audit, screening of Theatre 2 staff (with consent and support), environmental sampling, enhanced surveillance, and sequencing new cases promptly. **Committee question to ask:** "If you find a staff carrier, will mupirocin decolonisation work?" The cluster carries *ileS-2* (high-level mupirocin resistance), so probably not: discuss alternatives with the microbiologist. This is genomics changing an IPC action directly.
 
 ---
 
