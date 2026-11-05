@@ -4,9 +4,9 @@
 ---
 
 ## 1. Teaching team & principles
-- **One instructor** leads all lectures and live demos, with **≥ 1 helper per 6 participants** for labs
+- **One instructor** leads all lectures, live demos and lab support. The group is small enough to walk round and help each pair.
 - **Trainee team** (4–6 trainees from UGHE and HMS): participants who also contribute to the literature review, workshop documentation and needs assessment, as committed in the planning grant. Each has a named mentor. See `resources/trainee_team_guide.md`. Treat them as colleagues: they join the dry run, can help during labs, and their logs drive the next version of the materials.
-- Helpers use **sticky notes**: participants put a **red** note on their laptop lid when stuck and a **green** one when finished (Carpentries practice)
+- Participants **raise a hand** when stuck or when they have a question
 - **Live-code / live-click:** the instructor does each step on the projector *at participant pace*. Don't show slides of screenshots.
 - **Pair programming:** driver/navigator; swap at the points marked in each lab
 - Expect beginners to need **~25% more time** than the timings suggest. Every lab has optional "extension" tasks for fast pairs and a fallback (pre-computed results) for slow ones.

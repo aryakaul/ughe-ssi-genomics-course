@@ -27,7 +27,7 @@
   - *Driver:* hands on the keyboard
   - *Navigator:* reads the handout and spots mistakes
   #v(0.3em)
-  #tip[Stuck? Put a *red* sticky note on your laptop lid. \ Finished? Put up a *green* one.]
+  #tip[Stuck or have a question? *Raise your hand* and the instructor will come to you.]
 ]
 
 #slide(part: "Part A · Files and folders", time: "15 min", title: "What's in a file name?")[

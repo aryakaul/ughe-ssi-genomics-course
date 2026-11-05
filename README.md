@@ -1,6 +1,13 @@
 # Genomic Surveillance of Surgical Site Infections & Antimicrobial Resistance
 ### A 2-day faculty course — University of Global Health Equity (UGHE)
 
+## Participants: where to find your files
+- **Lab handouts (PDF):** [`labs/pdf/`](labs/pdf/)
+- **All slides for each day, in order:** [Day 1](slides/pdf/Day1.pdf) · [Day 2](slides/pdf/Day2.pdf)
+- **Single lectures and labs (PDF):** [`slides/pdf/`](slides/pdf/) · [`labs/slides/pdf/`](labs/slides/pdf/)
+- **Data for Labs 5–6:** [`labs/data/`](labs/data/)
+- **Everything at once:** green **Code** button → **Download ZIP**
+
 ## Why this course exists
 Surgical site infections (SSIs) are among the most common healthcare-associated infections in low- and middle-income countries, and more and more of them are caused by antibiotic-resistant bacteria. Whole-genome sequencing (WGS) can answer questions that culture and susceptibility testing alone cannot:
 
@@ -40,7 +47,7 @@ build_handouts.sh           Rebuilds the handout PDFs (needs pandoc + Typst)
 ## How to use these materials
 1. **Instructor:** read `resources/instructor_guide.md` first, then do the **dry run** described there at least one week before the course.
 2. Send `00_pre-course/setup_checklist.md` to participants **two weeks** before the course.
-3. Present the lectures from `slides/pdf/`. Speaker notes and figure ideas are in the matching `slides/*.md` outline.
+3. Present each day from one file: `slides/pdf/Day1.pdf` and `slides/pdf/Day2.pdf` (every lecture, lab, break and logistics slide in timetable order; built from `slides/Day1.typ` / `Day2.typ`, which include the individual decks). Single lecture decks are also in `slides/pdf/`. Speaker notes and figure ideas are in the matching `slides/*.md` outline.
 4. Print the handouts from `labs/pdf/` and `resources/glossary.md` for each participant, **and** share the handout PDFs digitally: participants copy reads, URLs and commands from them. After editing a handout, run `./build_handouts.sh` (needs `brew install pandoc typst`).
 5. Project `labs/slides/pdf/LabN_*.pdf` during each lab. They show the plan, the key settings, the "Check yourself" questions and the swap points; the handout keeps the full steps.
 6. **Editing slides:** change the `.typ` file next to the outline or handout, then run `./build_slides.sh` (needs Typst: `brew install typst`). Keep slides simple: one idea per slide, short phrases, large text. If the script warns that a slide overflowed, split it rather than shrinking the text.

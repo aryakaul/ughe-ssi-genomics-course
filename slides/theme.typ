@@ -189,7 +189,7 @@
     #text(size: 22pt)[#raw(file)]
   ]
   #v(0.4em)
-  - *Printed:* #lab in your handout pack
-  - *PDF:* the course folder (link from the instructor) or the USB stick
+  - *Download:* github.com/aryakaul/ughe-ssi-genomics-course
+  - Open the `labs/pdf/` folder and click the file
   #tip[The handout has every step. Copy reads, URLs and commands from the *PDF*, not from this screen.]
 ]

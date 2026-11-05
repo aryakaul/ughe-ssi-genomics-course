@@ -2,7 +2,7 @@
 **Day 1 · 10:45–12:15 · 90 min · Work in pairs (driver + navigator; swap at Part C)**
 **Objectives:** LO2, LO3 — Recognise genomic file formats, read a quality score, and run a tool in Galaxy
 
-> **Before you start:** you should be logged in to **https://usegalaxy.eu** (see setup checklist). Ask a helper if you are not.
+> **Before you start:** you should be logged in to **https://usegalaxy.eu** (see setup checklist). Raise your hand if you are not.
 
 ---
 

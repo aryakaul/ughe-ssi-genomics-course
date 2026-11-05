@@ -44,7 +44,7 @@ If you are on the trainee team (see `resources/trainee_team_guide.md`):
 - [ ] **Internet:** at least 20 Mbps shared, tested with 30 people in Galaxy at the same time. Have a **mobile hotspot backup**.
 - [ ] Power strips at every table
 - [ ] Projector + HDMI/USB-C adapters; a second screen for live demos if possible
-- [ ] Flip charts and markers (Lab 6 briefings), sticky notes (exit tickets)
+- [ ] Flip charts and markers (Lab 6 briefings), slips of paper (exit tickets)
 - [ ] Printed handouts: labs 1–6, glossary, quiz (×2 per person), action-plan template
 - [ ] **USB sticks** with offline copies of all datasets, pre-computed results and handouts (in case the internet fails)
 - [ ] Shared Galaxy history `UGHE-SSI course – precomputed` ready and **shared by link** (see instructor guide)

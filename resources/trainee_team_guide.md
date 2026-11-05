@@ -72,7 +72,7 @@ Everyone is a **participant first**. Each trainee documents **one or two labs** 
 | Role | Responsibility | Output |
 |---|---|---|
 | **Lab scribe** (one per lab) | Follow the handout alongside participants; note every step that differs from the handout, every error and its fix, and actual timings | Lab log (template A) |
-| **Troubleshooting logger** | Collect problems from helpers during labs | Rows in `troubleshooting_log.csv` |
+| **Troubleshooting logger** | Collect problems seen during labs | Rows in `troubleshooting_log.csv` |
 | **FAQ curator** | Capture participant questions and the answers given | FAQ entries (template C) |
 | **Screenshot lead** | Capture current screens to replace handout placeholders | Images named `labN_stepX.png` |
 | **Language lead** (optional) | Collect Kinyarwanda equivalents for key terms; note confusing wording | Additions to `resources/glossary.md` |

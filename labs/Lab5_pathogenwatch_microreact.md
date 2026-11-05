@@ -5,12 +5,13 @@
 > **Scenario:** The IPC nurse at *District Hospital A (fictional)* is worried about a rise in MRSA SSIs on Surgical Ward B. The lab stored the isolates and sent them for Illumina sequencing, and your colleague assembled them in Galaxy. You now have **genomes from all the MRSA isolates from the past months** and want a quick overview.
 > *The genomes are real public data. The hospital, wards and dates are fictional.*
 
-**Files from the instructor** (shared Galaxy history `UGHE-SSI course – precomputed` at https://usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed, or the USB stick):
+**Files from the instructor**, in the `labs/data/` folder of the course GitHub (https://github.com/aryakaul/ughe-ssi-genomics-course):
 - `assemblies/` — one FASTA per isolate
 - `koser_tree.nwk` — phylogenetic tree (built in Galaxy with Snippy → IQ-TREE)
 - `lab6_metadata.csv` — patient, ward, procedure and date information
 
-> **Download from Galaxy:** open the shared history → click a dataset → the **download** icon 💾. To download all the assemblies at once, select them and choose **"Download"** (or ask a helper for the zip).
+> **Download everything at once:** on https://github.com/aryakaul/ughe-ssi-genomics-course click the green **Code** button → **Download ZIP**, then unzip it. The files are in `labs/data/`.
+> *Alternative:* the shared Galaxy history https://usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed (click a dataset → **download** icon 💾).
 
 ---
 

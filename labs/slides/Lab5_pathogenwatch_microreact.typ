@@ -38,8 +38,8 @@
     [`koser_tree.nwk`], [Phylogenetic tree (Galaxy: Snippy → IQ-TREE)],
     [`lab6_metadata.csv`], [Patient, ward, procedure and date information],
   )
-  - *Galaxy:* usegalaxy.eu/u/aryakaul/h/ughe-ssi-course-precomputed (link in your handout)
-  - *Faster:* the USB stick or course folder (the assemblies zip)
+  - *GitHub:* github.com/aryakaul/ughe-ssi-genomics-course
+  - Green *Code* button → *Download ZIP* → unzip → `labs/data/`
 ]
 
 #slide(part: "Part A1–A2 · Pathogenwatch", time: "30 min for Part A", title: "Upload and explore")[
@@ -72,7 +72,7 @@
   + Column that links the table to the tree tips → *`id`*
   + Dates: confirm that *`year`*, *`month`*, *`day`* form the date
   + *Continue / Create*
-  #tip["No matching IDs"? Ask a helper: the tree labels and the `id` column must match exactly.]
+  #tip["No matching IDs"? Raise your hand: the tree labels and the `id` column must match exactly.]
 ]
 
 #slide(part: "Part B2 · Microreact", title: "Explore: tree + time + place")[

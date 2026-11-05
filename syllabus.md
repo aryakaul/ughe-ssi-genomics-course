@@ -25,7 +25,7 @@ By the end of the course, participants will be able to:
 - **2 days**, 08:30–17:00, about 50% hands-on
 - Participants work **in pairs**: one "driver" at the keyboard and one "navigator" reading the handout. They swap at each lab.
 - Each participant uses their own laptop with a modern web browser (see `00_pre-course/setup_checklist.md`)
-- Ratio of at least **1 helper per 6 participants** during labs. Trainee team members who joined the dry run can act as additional helpers.
+- The group is small enough for the instructor to support every pair during labs: participants **raise a hand** when they have a question. Trainee team members can also help.
 
 ## Trainee team and shared UGHE–HMS ownership
 The course is **jointly owned and co-led by UGHE and HMS**. It puts into practice the planning grant's commitment to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."* A **trainee team** of 4–6 trainees from both institutions takes the workshop as participants and contributes to three workstreams (details: `resources/trainee_team_guide.md`).
@@ -51,7 +51,7 @@ The course is **jointly owned and co-led by UGHE and HMS**. It puts into practic
 | 13:45–15:30 | **Lab 2 · Quality control and genome assembly.** Illumina track: FastQC → fastp → Shovill → QUAST. Nanopore track: NanoPlot → Flye → QUAST. Pairs compare results across tracks | Hands-on | `labs/Lab2_qc_assembly.md` |
 | 15:30–15:45 | *Break* | | |
 | 15:45–16:45 | **Lab 3 · A look under the hood: the command line.** Navigating folders, viewing files, counting reads with `wc` and `grep`. Connects directly to what Galaxy did in Lab 2 | Hands-on | `labs/Lab3_command_line_taster.md` |
-| 16:45–17:00 | Recap; **"muddiest point" exit ticket** (one sticky note: *What is still unclear?*) | — | |
+| 16:45–17:00 | Recap; **"muddiest point" exit ticket** (one slip of paper: *What is still unclear?*) | — | |
 | 17:00–17:20 | **Trainee team huddle** (trainee team + UGHE and HMS leads): top problems of the day, urgent fixes for tomorrow's handouts, logs and screenshots saved | Trainee team | `resources/trainee_team_guide.md` |
 
 ## Day 2 — From genomes to surveillance action
