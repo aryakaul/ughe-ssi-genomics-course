@@ -128,6 +128,17 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 - **G1:** 5.6 Mb ≈ **two** *S. aureus* genomes → probably a **mixed culture/contamination**; do not use it
 - **G2:** Accept if the total length is ≈ 2.7–3.0 Mb, GC ≈ 33%, and there is a reasonable number of contigs
 - **H:** Nanopore gives fewer, longer contigs (often a near-complete chromosome). Illumina is historically more accurate per base. Nanopore or hybrid is better for plasmids. Hybrid assembly = **complete and accurate**.
+- **Reference QUAST values** (backup assemblies in the shared history, November 2026; participants' values will be close but not identical):
+
+  | Metric (contigs ≥ 500 bp) | Illumina (Shovill, GTN Zenodo) | Nanopore (Flye, `--nano-corr`) |
+  |---|---|---|
+  | # contigs | 30 (44 including < 500 bp) | 2 |
+  | Largest contig | 589,438 | 2,907,108 |
+  | Total length | 2,907,150 | 2,967,180 |
+  | N50 | 276,459 | 2,907,108 |
+  | GC (%) | 32.77 | 32.91 |
+
+  Teaching point for Part H: Flye's largest contig (2.91 Mb) is essentially the whole chromosome, and its second contig is about 60 kb, probably a plasmid. Check the "circular" column in Flye's assembly info output before saying so in class.
 
 ### Lab 3
 - **C2:** 2 reads (8 lines ÷ 4)

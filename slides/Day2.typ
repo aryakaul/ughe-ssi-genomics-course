@@ -84,11 +84,24 @@
   #key[Last point on the template: your first step next week.]
 ]
 
-#slide(title: "Knowledge check and evaluation", time: "20 min")[
-  - The same knowledge check as yesterday
-  - Use the *same code word* and tick *Post*
-  - Answer *N4* at the end: what support would help you most?
-  - Then the course evaluation
+#slide(title: "Knowledge check: after the course")[
+  - The *same questions* as yesterday
+  - Use the *same code word* as yesterday, and write *Post*
+  - Afterwards we'll go through the answers together
+]
+]
+
+#include "Assessment_post.typ"
+#include "Assessment_answers.typ"
+
+#[
+#show: deck.with(lab: "Day 2", title: "From Genomes to Surveillance Action")
+
+#slide(title: "Course evaluation", time: "5 min")[
+  - What worked well?
+  - What should we change for the next group?
+  - Anything still unclear?
+  #key[Your answers shape the next version of this course.]
 ]
 
 #slide(title: "Keep going")[

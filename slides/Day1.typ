@@ -58,16 +58,14 @@
   ]
 ]
 
-#slide(title: "Knowledge check", time: "15 min")[
-  - *Not graded*, and anonymous
-  - Choose a *code word* and write it at the top. You'll use it again tomorrow.
-  - Tick *Pre*
-  - Answer the questions, then *N1–N3* at the end
-  #v(0.3em)
-  #key[It's fine not to know the answers yet. That's what the course is for.]
+#slide(title: "Choose a code word")[
+  - Pick a *code word* you'll remember, e.g. a favourite food or place
+  - You'll use the *same code word* tomorrow, so we can compare before and after
+  - No names: the knowledge check is anonymous
 ]
 ]
 
+#include "Assessment_pre.typ"
 #include "L1_ssi_amr_why_genomics.typ"
 #include "L2_sample_to_sequence.typ"
 
