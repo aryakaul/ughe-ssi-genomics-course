@@ -80,7 +80,7 @@
     [*IPC committee*], [Cluster summary, tree, timeline, recommended actions],
     [*Ministry / RBC*], [Quarterly summary of resistance genes and clones],
   )
-  #tip[Use simple visuals (Microreact) and a one-page template. *Close the loop:* did the action reduce SSIs?]
+  #tip[Use simple visuals (Pathogenwatch) and a one-page template. *Close the loop:* did the action reduce SSIs?]
 ]
 
 #slide(title: "People: keeping the skills alive")[

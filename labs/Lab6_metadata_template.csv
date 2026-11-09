@@ -1,4 +1,4 @@
-id,profile,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin,notes
+name,profile,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin,notes
 FILL_IN,A1,P01,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-02,2026,2,9,Wound swab,R,Index case
 FILL_IN,A2,P02,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-06,2026,2,14,Wound swab,R,
 FILL_IN,A3,P03,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-11,2026,2,18,Wound swab,R,

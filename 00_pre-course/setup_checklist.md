@@ -21,19 +21,16 @@ Galaxy is a free website for analysing biological data.
 1. Go to **https://pathogen.watch**
 2. Click **Sign in** and create an account (or sign in with Google/Microsoft)
 
-## 4. Microreact ☐ (optional)
-- **https://microreact.org** works without an account. Sign in (e.g. with Google) only if you want to save projects.
-
-## 5. Trainee team only: GitHub account ☐
+## 4. Trainee team only: GitHub account ☐
 If you are on the trainee team (see `resources/trainee_team_guide.md`):
 1. Create a free account at **https://github.com** and send your username to the instructor, who will add you to the course repository
 2. Keep the half-day dry run (about 1 week before the course) and the half-day documentation sprint (within 2 weeks after) free in your calendar
 
-## 6. Optional pre-reading (20 minutes) ☐
+## 5. Optional pre-reading (20 minutes) ☐
 - `resources/glossary.md`: skim the definitions; you don't need to memorise them
 - Velin L, et al. *Surgical site infections and antimicrobial resistance after cesarean section delivery in rural Rwanda.* Ann Glob Health 2021;87(1):77. https://doi.org/10.5334/aogh.3413 (open access)
 
-## 7. Bring ☐
+## 6. Bring ☐
 - [ ] Laptop + charger
 - [ ] Your Galaxy and Pathogenwatch **passwords**
 - [ ] *Optional:* a question from your own work that genomics might answer

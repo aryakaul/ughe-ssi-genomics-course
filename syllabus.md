@@ -6,7 +6,7 @@
 ## Course description
 This hands-on course introduces faculty to using whole-genome sequencing (WGS) of bacterial isolates for surveillance of surgical site infections (SSIs), with a focus on **detecting and tracking antimicrobial resistance (AMR)**. Participants follow the entire path from a wound swab to a public-health decision: how isolates are sequenced (in-house or outsourced), how raw data are checked and assembled, how resistance genes and strain types are identified, and how genomic data are combined with ward and patient information to recognise outbreaks.
 
-No prior coding or bioinformatics experience is needed. All analysis uses **free, browser-based tools** (Galaxy, Pathogenwatch, Microreact) that participants can keep using after the course without buying hardware or software.
+No prior coding or bioinformatics experience is needed. All analysis uses **free, browser-based tools** (Galaxy, Pathogenwatch) that participants can keep using after the course without buying hardware or software.
 
 ## Learning objectives
 By the end of the course, participants will be able to:
@@ -62,7 +62,7 @@ The course is **jointly owned and co-led by UGHE and HMS**. It puts into practic
 | 08:50–10:30 | **Lab 4 · Who is it, and what does it resist?** Species ID (Kraken2), MLST, AMR gene detection (AMRFinderPlus, ABRicate/ResFinder/CARD), plasmid detection; comparing genotype with an AST report | Hands-on | `labs/Lab4_species_typing_amr.md` |
 | 10:30–10:45 | *Break* | | |
 | 10:45–11:30 | **L4 · Typing, trees and outbreaks.** MLST vs cgMLST vs SNPs; reading a phylogenetic tree; SNP thresholds; combining genomic data with time, place and person | Lecture | `slides/L4_typing_phylogenetics_outbreaks.md` |
-| 11:30–12:30 | **Lab 5 · Pathogenwatch and Microreact.** Upload assemblies → automatic species, typing, AMR, clustering; build an interactive tree + timeline + map | Hands-on | `labs/Lab5_pathogenwatch_microreact.md` |
+| 11:30–12:30 | **Lab 5 · Pathogenwatch.** Upload assemblies and metadata → automatic species, typing, AMR, clustering; explore an interactive tree + timeline | Hands-on | `labs/Lab5_pathogenwatch.md` |
 | 12:30–13:15 | *Lunch* | | |
 | 13:15–15:00 | **Lab 6 · Case study: a cluster on the surgical ward.** Groups of 4 analyse isolates and metadata, decide whether it is an outbreak, and present a 5-minute briefing to a mock IPC committee | Group work | `labs/Lab6_ssi_outbreak_case_study.md` |
 | 15:00–15:15 | *Break* | | |

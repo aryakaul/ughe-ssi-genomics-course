@@ -39,7 +39,6 @@
 | **Galaxy (Europe)** | Run bioinformatics tools in a browser | https://usegalaxy.eu |
 | **Galaxy (main/US)** | Alternative server | https://usegalaxy.org |
 | **Pathogenwatch** | Species, MLST, AMR, clustering, global context | https://pathogen.watch |
-| **Microreact** | Interactive tree + map + timeline | https://microreact.org |
 | **ResFinder (CGE)** | Web AMR gene and point-mutation detection | https://genepi.food.dtu.dk/resfinder |
 | **CGE services** | PlasmidFinder, MLST, VirulenceFinder and others | http://genomicepidemiology.org/services/ |
 | **CARD / RGI** | Comprehensive AMR database and web analysis | https://card.mcmaster.ca/analyze/rgi |

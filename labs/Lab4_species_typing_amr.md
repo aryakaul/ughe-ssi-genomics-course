@@ -94,9 +94,9 @@ The hospital microbiology lab sent this **AST report** for the isolate.
 | Cefoxitin (methicillin screen) | **R** | | | |
 | Penicillin | **R** | | | |
 | Gentamicin | **S** | | | |
-| Erythromycin | | | | |
-| Ciprofloxacin | | | | |
-| Tetracycline | | | | |
+| Erythromycin | **R** | | | |
+| Ciprofloxacin | **R** | | | |
+| Tetracycline | **R** | | | |
 | Trimethoprim-sulfamethoxazole | **S** | | | |
 | Vancomycin | **S** | | | |
 

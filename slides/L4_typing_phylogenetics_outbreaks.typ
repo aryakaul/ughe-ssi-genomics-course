@@ -164,14 +164,14 @@
 
 #slide(title: "Tools for the next lab")[
   #cols[
-    #tip(label: "Pathogenwatch")[
+    #tip(label: "Pathogenwatch: results")[
       Upload assemblies → species, ST, AMR, clustering, tree
     ]
   ][
-    #tip(label: "Microreact")[
-      Tree + map + timeline + metadata in one interactive view
+    #tip(label: "Pathogenwatch: context")[
+      Add a metadata table → tree + timeline + metadata in one interactive view
     ]
   ]
   #v(0.3em)
-  Both are free, used by national public-health labs, and need *no coding*.
+  Free, used by public-health labs, and needs *no coding*.
 ]

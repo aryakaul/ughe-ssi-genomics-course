@@ -26,7 +26,7 @@
 *Note:* this is the same isolate as Dataset 1. Participants whose Lab 2 assembly finished can use their own assembly instead and compare.
 
 ## Dataset 3 — Neonatal MRSA outbreak (Köser et al. 2012): the outbreak case study
-**Used in:** Lab 5 (Pathogenwatch/Microreact), Lab 6 (case study)
+**Used in:** Lab 5 (Pathogenwatch), Lab 6 (case study)
 **Paper:** Köser CU, Holden MTG, Ellington MJ, et al. Rapid whole-genome sequencing for investigation of a neonatal MRSA outbreak. *N Engl J Med* 2012;366:2267–75. doi:10.1056/NEJMoa1109910
 **ENA project:** **PRJEB2912** (study ERP001256): 14 isolates, Illumina MiSeq paired-end
 
@@ -58,8 +58,6 @@ FASTQ URL pattern: `ftp.sra.ebi.ac.uk/vol1/fastq/ERR103/ERR103395/ERR103395_1.fa
 |---|---|---|
 | *E. coli* C-1, Illumina + Nanopore | Hybrid assembly (Unicycler), extension for fast pairs | Zenodo 940733 (`illumina_f.fq`, `illumina_r.fq`, `minion_2d.fq`); GTN `unicycler-assembly` |
 | *K. pneumoniae* neonatal unit outbreak, Malawi | African Gram-negative example for follow-up practice (subsample about 15 isolates) | Cornick J et al. *Microb Genom* 2021. doi:10.1099/mgen.0.000703; ENA/SRA PRJNA641987, PRJEB19322 |
-| *K. pneumoniae* EuSCAPE (Microreact) | Ready-made Microreact demo of a large surveillance project | https://microreact.org/project/EuSCAPE_Kp |
-| Global *S. aureus* ST239 (Microreact) | Ready-made Microreact demo | https://microreact.org/project/NJ-zAij8 |
 
 ---
 

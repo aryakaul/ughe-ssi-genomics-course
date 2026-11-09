@@ -48,7 +48,7 @@
   - **Clinicians:** "This isolate carries an NDM carbapenemase. Avoid carbapenems; consult ID."
   - **IPC committee:** cluster summary, tree, timeline, recommended actions
   - **Ministry / RBC:** quarterly summary of resistance genes and clones
-- Use simple visuals (Microreact) and a one-page template
+- Use simple visuals (Pathogenwatch) and a one-page template
 - Close the loop: did the action reduce SSIs?
 
 ### Slide 8 — People: keeping the skills alive

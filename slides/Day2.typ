@@ -21,7 +21,7 @@
     [08:50], [*Lab 4:* Who is it, and what does it resist?],
     [10:30], [_Break_],
     [10:45], [*Lecture 4:* Typing, trees and outbreaks],
-    [11:30], [*Lab 5:* Pathogenwatch and Microreact],
+    [11:30], [*Lab 5:* Pathogenwatch],
     [12:30], [_Lunch_],
   )
 ]
@@ -56,7 +56,7 @@
 ]
 
 #include "L4_typing_phylogenetics_outbreaks.typ"
-#include "/labs/slides/Lab5_pathogenwatch_microreact.typ"
+#include "/labs/slides/Lab5_pathogenwatch.typ"
 
 #[
 #show: deck.with(lab: "Day 2", title: "From Genomes to Surveillance Action")

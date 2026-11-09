@@ -14,8 +14,8 @@ The infection prevention and control (IPC) nurse writes to you:
 > "Since early February we've had **more MRSA wound infections than usual on Surgical Ward B**. The surgeons say it's bad luck. Theatre staff say it's the ward. The ward says it's the theatre. The hospital director asks whether we should **close Ward B to admissions**. Closing it would cancel about 40 operations a week. The lab stored all MRSA isolates since September, and we got genomes back from our sequencing partner last week. **Can you tell us what's going on by Wednesday's IPC meeting?**"
 
 ## Your evidence
-1. **Microreact project** from Lab 5 (tree + timeline + metadata), or the `koser_tree.nwk` and `lab6_metadata.csv` files
-2. **SNP distance matrix**: `koser_snp_matrix.tsv` (in the shared Galaxy history). Open it in Galaxy (👁) or download it and open it in Excel.
+1. **Pathogenwatch collection** from Lab 5 (tree + timeline + metadata)
+2. **SNP distance matrix**: `koser_snp_matrix.tsv` (in `labs/data/`). Open it in Excel.
 3. **Pathogenwatch results** from Lab 5 (ST and AMR per isolate)
 4. **Metadata table** (`lab6_metadata.csv`): patient code, ward, procedure, theatre, surgery date, sample date
 
@@ -61,7 +61,7 @@ Open the SNP matrix. Each cell is the number of single-letter differences betwee
 | | | | |
 
 ### B3. Tree
-In Microreact, colour the tree by **ward**, then by **theatre**. Does the cluster from B2 appear as a tight group on short branches?
+In your Pathogenwatch collection, colour the tree by **ward**, then by **theatre**. Does the cluster from B2 appear as a tight group on short branches?
 
 ---
 
@@ -95,7 +95,7 @@ Use this template (one flip-chart page or 3 slides):
 
 > **1. Bottom line (1 sentence):** "We found / did not find evidence of an outbreak of ______ linked to ______."
 > **2. What we did:** "We sequenced __ MRSA isolates from __ to __ and compared them genetically."
-> **3. What we found:** one visual (screenshot of the Microreact tree + timeline) and 2–3 bullet points
+> **3. What we found:** one visual (screenshot of the Pathogenwatch tree + timeline) and 2–3 bullet points
 > **4. What this means:** which cases are linked, and the likely route
 > **5. Recommendations:** 3 concrete actions, with who does them and by when
 > **6. What we don't know yet:** limitations and next steps

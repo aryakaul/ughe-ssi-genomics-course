@@ -1,4 +1,4 @@
-id,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin
+name,patient_code,hospital,ward,procedure,theatre,surgery_date,year,month,day,specimen,cefoxitin
 MRSA_12C,P01,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-02,2026,2,9,Wound swab,R
 MRSA_1B,P02,District Hospital A (fictional),Surgical Ward B,Laparotomy,Theatre 2,2026-02-06,2026,2,14,Wound swab,R
 MRSA_7C,P03,District Hospital A (fictional),Surgical Ward B,Open fracture fixation,Theatre 2,2026-02-11,2026,2,18,Wound swab,R

@@ -75,5 +75,5 @@
 
 ### Slide 10 — Tools for the next lab
 - **Pathogenwatch**: upload assemblies → species, ST, AMR, cgMLST clustering, tree
-- **Microreact**: tree + map + timeline + metadata in one interactive view
-- Both are free, used by national public-health labs, and need **no coding**
+- Add a metadata table to see tree + timeline + metadata in one interactive view
+- Free, used by public-health labs, and needs **no coding**

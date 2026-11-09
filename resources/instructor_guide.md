@@ -29,7 +29,7 @@ Do the whole course yourself on **usegalaxy.eu** with the participants' setup (v
 | Lab 4: record the MLST ST, AMRFinderPlus and staramr gene lists (→ answer key §6) | ☐ |
 | Lab 4: fill in the blank AST cells (see §4) | ☐ |
 | Pre-computed history built (§3) and shared by link | ☐ |
-| Lab 6 metadata mapped (§4) and tested in Microreact | ☐ |
+| Lab 6 metadata mapped (§4) and tested in Pathogenwatch | ☐ |
 | Pathogenwatch upload of the 14 assemblies tested; time = ____ min | ☐ |
 | USB offline packs made | ☐ |
 
@@ -60,15 +60,16 @@ Run Lab 2 (both tracks) yourself and keep: the fastp reports, the **Shovill cont
    ERR159680
    ```
    The output is a **paired collection**.
-   - *Optional:* relabel the collection elements to the sample names (`MRSA_10C` …) with **Relabel identifiers**, using the run → sample table in `datasets.md`. Whatever names you choose become the **tree tip labels** and the **`id`** values in the metadata.
+   - *Optional:* relabel the collection elements to the sample names (`MRSA_10C` …) with **Relabel identifiers**, using the run → sample table in `datasets.md`. Whatever names you choose become the **assembly names** and the **`name`** values in the metadata.
 2. **fastp** on the paired collection (defaults)
 3. **Shovill** on the fastp output collection (defaults) → 14 assemblies. Download them as a zip (`assemblies/`) for Pathogenwatch.
-4. **Choose a reference:** run **QUAST** on the assemblies and pick the one with the **fewest contigs** as an internal reference. *(Alternatively, use a published ST22 EMRSA-15 reference genome. Verify the accession before using it.)*
-5. **Snippy** (collection mode) → reads: fastp collection; reference: the chosen assembly
-6. **snippy-core** on all the Snippy outputs → core alignment
-7. **IQ-TREE** on the core alignment (defaults or GTR+G). Save the tree as `koser_tree.nwk`.
+4. **Reference:** use the complete ST22 EMRSA-15 genome **HE681097.1**, the same lineage as the cluster.
+   - ⚠️ **Do not** pick the Köser assembly with the fewest contigs. That picks MRSA_17B, a different lineage about 25,000 SNPs from the main group, and it inflated within-group distances to 129–424 SNPs.
+5. **Snippy** (collection mode) → reads: fastp collection; reference: HE681097.1
+6. **snippy-core** on all the Snippy outputs → core alignment and cleaned full alignment
+7. **IQ-TREE** on the cleaned full alignment (defaults or GTR+G). Save the tree as `koser_tree.nwk`. *(Instructor record only: participants use the tree Pathogenwatch builds.)*
 8. **snp-dists** on the core alignment → `koser_snp_matrix.tsv`
-9. **Check:** open the tree in Microreact. Tip labels must **exactly** match the `id` column you will use in §4.
+9. **Check:** the isolate names in `koser_snp_matrix.tsv` must **exactly** match the `name` column you will use in §4.
 
 > ⏱ Expect several hours of Galaxy compute in total. Start **at least 3 days** before the dry-run deadline.
 
@@ -84,13 +85,13 @@ The template has **fictional** patient profiles:
    - ⚠️ **Do not** infer cluster membership from the B/C suffix in the sample names.
 2. Assign **A-profiles** to the cluster isolates (A1 = the earliest; always include **A4**, the hidden theatre link). Assign **B-profiles** to non-cluster isolates.
    - Put **B1** on a non-cluster isolate, ideally the **same ST** as the cluster but with many SNPs. This is the key teaching point: *same ward, same time, same antibiogram, but not linked*.
-3. Replace `FILL_IN` with each isolate's ID (must match the tree tips). **Delete unused profile rows.**
+3. Replace `FILL_IN` in the `name` column with each isolate's name (must match the assembly names). **Delete unused profile rows.**
 4. Delete the `profile` and `notes` columns from the participant copy, and save it as `lab6_metadata.csv`
-5. Test in Microreact: upload `lab6_metadata.csv` + `koser_tree.nwk` and check that `id` links and `year/month/day` (= **specimen collection date**) build the timeline
+5. Test in Pathogenwatch: upload the assemblies and `lab6_metadata.csv` together, make a collection, and check that every genome has its metadata and that `year/month/day` (= **specimen collection date**) build the timeline
 6. Write your mapping (isolate → profile) in §6 below for the answer key
 
 ### Lab 4 AST blanks
-After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofloxacin, tetracycline) in `labs/Lab4_species_typing_amr.md`:
+The AST cells in `labs/Lab4_species_typing_amr.md` are filled in for `DRR187559_contigs.fasta` (erythromycin, ciprofloxacin and tetracycline are **R**, matching the genotype in §6). If you change the Lab 4 genome, set them again:
 - Make most cells **agree** with the genotype
 - The gentamicin row is already set to **S** while the genome is expected to carry *aac(6')-aph(2'')*. That is the deliberate **disagreement**. Keep it (or add another one).
 
@@ -106,7 +107,7 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 | Galaxy very slow for everyone | Switch the whole class to the pre-computed history; demo the remaining tools on the projector |
 | JupyterLab won't start | Use the laptop's Terminal / Git Bash, or the MyBinder link on the GTN "CLI basics" page; run Lab 3 as a projected demo if needed |
 | Pathogenwatch upload slow | Upload a subset (6–8 assemblies) per pair; the instructor shows the full collection |
-| Microreact "no matching IDs" | The tree tip labels and the CSV `id` column differ. Check for `.fasta` suffixes, underscores or spaces. |
+| Metadata missing from the Pathogenwatch collection | The rows did not link to the genomes. Upload the FASTA files and the CSV together, and check the CSV `name` values against the assembly file names for `.fasta` suffixes, underscores or spaces. |
 | Internet down | USB packs: handouts, pre-computed outputs (HTML reports, tables, tree screenshots). Switch labs to "interpret the outputs" mode. |
 
 **Places to compress if you are running late:** drop Lab 2 Part H (merge it into the plenary), Lab 3 Part C4, Lab 4 Part B2 (Kraken2), and Lab 6 Part E (fewer briefings, e.g. 3 groups).
@@ -124,7 +125,7 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 
 ### Lab 2
 - **A:** Illumina is **paired-end** (both ends of each fragment are read → R1 + R2). Nanopore reads each molecule once → one file.
-- **F:** Coverage = total bases ÷ ~2.8 Mb. *Record the values from the dry run here:* Illumina ____×, Nanopore ____×
+- **F:** Coverage = total bases ÷ ~2.8 Mb. Counted from the raw files: **Illumina ≈ 67×** (451,782 read pairs; R1 + R2 = 186.3 Mb; R1 alone is ≈ 31×, so pairs must add both files), **Nanopore ≈ 222×** (91,288 reads; 621.9 Mb; mean length about 6.8 kb). Both are well above the minimums.
 - **G1:** 5.6 Mb ≈ **two** *S. aureus* genomes → probably a **mixed culture/contamination**; do not use it
 - **G2:** Accept if the total length is ≈ 2.7–3.0 Mb, GC ≈ 33%, and there is a reasonable number of contigs
 - **H:** Nanopore gives fewer, longer contigs (often a near-complete chromosome). Illumina is historically more accurate per base. Nanopore or hybrid is better for plasmids. Hybrid assembly = **complete and accurate**.
@@ -148,14 +149,32 @@ After running Lab 4 yourself, fill in the blank AST cells (erythromycin, ciprofl
 - **D2:** It may be **higher** than QUAST's # contigs, because QUAST by default only counts contigs ≥ 500 bp
 
 ### Lab 4 (dataset `DRR187559_contigs.fasta`)
-- **B1:** The scheme is **`saureus`** → *S. aureus*. ST = ____ *(record during the dry run)*
+*Results below are from a November 2026 run of the assembly outside Galaxy: mlst 2.33.1, AMRFinderPlus 4.2.7 (database 2026-10-29.1), staramr 0.12.3. Galaxy's tool versions may differ slightly.*
+- **B1:** The scheme is **`saureus`** → *S. aureus*. **ST764** (arcC 1, aroE 136, glpF 1, gmk 4, pta 12, tpi 1, yqiL 10), a single-locus variant of the well-known MRSA clone ST5
 - **C1:** **`mecA`** → methicillin resistance (MRSA)
-- **C2:** Tools use different databases, versions and identity/coverage thresholds; AMRFinderPlus also detects species-specific point mutations
-- **C3:** staramr predicted phenotype: ____ *(record)*
+- **C2:** Tools use different databases, versions and identity/coverage thresholds; AMRFinderPlus also detects species-specific point mutations. Here staramr finds 7 genes, while AMRFinderPlus also finds *blaZ* (partial), the *gyrA*/*parC* and other point mutations, and chromosomal efflux genes. staramr's PointFinder step does not cover *S. aureus*, so it misses the ciprofloxacin mutations.
+- **C3:** staramr predicted phenotype: amikacin, gentamicin, tobramycin, spectinomycin, erythromycin, azithromycin, penicillin, tetracycline, plus `unknown[bleO…]` (bleomycin). staramr reports **Quality Module: Failed** because its default genome-length range is 4–6 Mb. That is expected for a 2.9 Mb *S. aureus* genome and does not mean the assembly is bad.
 - **D (from the GTN tutorial using this exact assembly):** **5 plasmid replicons** and **7 resistance genes**. **4 of the 7** resistance genes are on contigs that also carry plasmid genes (contig00002, contig00019, contig00024). *aac(6')-aph(2'')* is on contig00019. Contig numbers will differ if participants use their own assembly.
-  - Full gene list from your dry run: ______________________
+  - Replicons: repUS43 (contig00002) · rep19, rep16, rep5a (contig00019) · rep22 (contig00024)
+
+  | Gene / mutation | Drug class | AMRFinderPlus | staramr | Contig | With a plasmid replicon? |
+  |---|---|---|---|---|---|
+  | *mecA* (with *mecI*, *mecR1*) | Methicillin, β-lactams | Yes | Yes (*mecA*) | 00021 | No |
+  | *blaZ* (with *blaI*, *blaR1*) | Penicillin | Yes (partial) | No | 00019 | Yes |
+  | *aac(6')-aph(2'')* | Gentamicin, tobramycin, amikacin | Yes | Yes | 00019 | Yes |
+  | *aadD* | Tobramycin, kanamycin | Yes | Yes | 00024 | Yes |
+  | *bleO* | Bleomycin | Yes | Yes | 00024 | Yes |
+  | *tet(M)* | Tetracycline | Yes | Yes | 00002 | Yes |
+  | *erm(A)* | Erythromycin, clindamycin | Yes | Yes | 00022 | No |
+  | *ant(9)-Ia* | Spectinomycin | Yes | Yes | 00022 | No |
+  | *gyrA* S84L, E88G + *parC* S80Y, E84K | Ciprofloxacin | Yes | No | 00004, 00001 | No (chromosomal) |
+  | *ileS* V588F | Mupirocin (low-level) | Yes | No | 00001 | No (chromosomal) |
+  | *mepA*, *tet(38)*, *fosB*, *rpsJ* K57M | Efflux, tetracyclines, fosfomycin, tigecycline | Yes | No | 00002, 00003 | Not relevant here |
+
+  The "7 resistance genes" above are staramr's: *aac(6')-aph(2'')*, *aadD*, *ant(9)-Ia*, *bleO*, *erm(A)*, *mecA*, *tet(M)*.
 - **D3:** Short-read assemblies break at repeats, so a gene and a replicon on *different* contigs may still share a plasmid (and the reverse). Long reads would resolve this.
-- **E:** Gentamicin **S** vs *aac(6')-aph(2'')* present → **disagreement**. Possible explanations: gene not expressed or truncated; AST error; breakpoint or method issues; mixed culture. Report the genotype as **"resistance gene detected, phenotype susceptible: interpret with caution / repeat AST"**. The genome **complements** AST and does **not replace** it for treatment decisions.
+- **E, the rows that agree:** cefoxitin R (*mecA*) · penicillin R (*blaZ*, *mecA*) · erythromycin R (*erm(A)*) · ciprofloxacin R (*gyrA* S84L + *parC* S80Y; found by AMRFinderPlus only) · tetracycline R (*tet(M)*) · trimethoprim-sulfamethoxazole S (no *dfr* or *sul* gene) · vancomycin S (no *van* gene).
+- **E, the row that disagrees:** Gentamicin **S** vs *aac(6')-aph(2'')* present → **disagreement**. Possible explanations: gene not expressed or truncated; AST error; breakpoint or method issues; mixed culture. Report the genotype as **"resistance gene detected, phenotype susceptible: interpret with caution / repeat AST"**. The genome **complements** AST and does **not replace** it for treatment decisions.
 
 ### Labs 5–6
 - **Lab 5, Check yourself A:** (1) 4 STs. (2) AMR determinants are **identical within each ST** (Pathogenwatch, November 2026). So all ten ST22 isolates, outbreak or not, look the same: a shared AMR profile suggests but does **not** prove relatedness.

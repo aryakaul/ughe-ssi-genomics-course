@@ -37,7 +37,7 @@
 ]
 
 #slide(title: "Your evidence")[
-  + *Microreact project* from Lab 5: tree + timeline + metadata
+  + *Pathogenwatch collection* from Lab 5: tree + timeline + metadata
   + *SNP matrix:* `koser_snp_matrix.tsv` (opens in Excel)
   + *Pathogenwatch results* from Lab 5: ST and AMR
   + *Metadata:* `lab6_metadata.csv`

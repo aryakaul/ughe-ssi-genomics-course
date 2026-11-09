@@ -24,7 +24,7 @@ UGHE faculty (clinicians, nurses, microbiologists, public-health and IPC staff).
 | Layer | Tool | Why |
 |---|---|---|
 | Main analysis | **Galaxy** (usegalaxy.org / usegalaxy.eu) | Free, browser-based, nothing to install, reproducible; lifelong self-study through the Galaxy Training Network |
-| Interpretation | **Pathogenwatch, Microreact, ResFinder, CARD, PubMLST** | Free web tools that public-health labs use worldwide |
+| Interpretation | **Pathogenwatch, ResFinder, CARD, PubMLST** | Free web tools that public-health labs use worldwide |
 | Literacy | **Command line taster** | So participants know what is "under the hood" and have a clear next step |
 
 Both **Illumina** (short-read) and **Oxford Nanopore** (long-read) data are analysed side by side, because a sequencing partner might use either.
@@ -40,17 +40,15 @@ labs/                       Step-by-step hands-on handouts (Lab 1–6, .md);
 labs/slides/                Lab slide sources (.typ); PDFs in labs/slides/pdf/
 resources/                  Glossary, further learning, instructor guide,
                             trainee team guide + troubleshooting log
-build_slides.sh             Rebuilds every slide PDF (needs Typst)
-build_handouts.sh           Rebuilds the handout PDFs (needs pandoc + Typst)
 ```
 
 ## How to use these materials
 1. **Instructor:** read `resources/instructor_guide.md` first, then do the **dry run** described there at least one week before the course.
 2. Send `00_pre-course/setup_checklist.md` to participants **two weeks** before the course.
 3. Present each day from one file: `slides/pdf/Day1.pdf` and `slides/pdf/Day2.pdf` (every lecture, lab, break and logistics slide in timetable order; built from `slides/Day1.typ` / `Day2.typ`, which include the individual decks). Single lecture decks are also in `slides/pdf/`. The knowledge check is on slides too (`Assessment_pre.pdf`, `Assessment_post.pdf`, `Assessment_answers.pdf`), generated from `slides/assessment.typ`: keep that file in sync with `00_pre-course/pre-assessment.md`. Speaker notes and figure ideas are in the matching `slides/*.md` outline.
-4. Print the handouts from `labs/pdf/` and `resources/glossary.md` for each participant, **and** share the handout PDFs digitally: participants copy reads, URLs and commands from them. After editing a handout, run `./build_handouts.sh` (needs `brew install pandoc typst`).
+4. Print the handouts from `labs/pdf/` and `resources/glossary.md` for each participant, **and** share the handout PDFs digitally: participants copy reads, URLs and commands from them.
 5. Project `labs/slides/pdf/LabN_*.pdf` during each lab. They show the plan, the key settings, the "Check yourself" questions and the swap points; the handout keeps the full steps.
-6. **Editing slides:** change the `.typ` file next to the outline or handout, then run `./build_slides.sh` (needs Typst: `brew install typst`). Keep slides simple: one idea per slide, short phrases, large text. If the script warns that a slide overflowed, split it rather than shrinking the text.
+6. **Editing slides:** change the `.typ` file next to the outline or handout. Keep slides simple: one idea per slide, short phrases, large text. If a slide overflows, split it rather than shrinking the text.
 
 ## Ownership, trainees & contributing
 These materials are **jointly owned by the University of Global Health Equity (UGHE) and Harvard Medical School (HMS)**. They were developed under a planning grant that commits to *"shared UGHE–HMS ownership and trainee involvement in literature reviews, workshop documentation and the needs-assessment process."*
