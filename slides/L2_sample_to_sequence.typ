@@ -118,13 +118,55 @@
   ]
 ]
 
+#slide(part: "PHA4GE minimal fields", title: "Which sample, from where?")[
+  #table(
+    columns: (auto, 1fr),
+    th[Field][Example for one SSI isolate],
+    [*specimen collector sample ID*], [`UGHE-SSI-0001` (your lab's own ID)],
+    [*specimen source ID*], [`CASE-0042`: coded, never a name],
+    [*geo_loc name (country)*], [Rwanda],
+    [*geo_loc name (state/province/region)*], [Northern Province],
+  )
+]
+
+#slide(part: "PHA4GE minimal fields", title: "Who handled it?")[
+  #table(
+    columns: (auto, 1fr),
+    th[Field][Example for one SSI isolate],
+    [*sample collected by*], [Full official name of the hospital lab],
+    [*sequenced by*], [Full official name of the sequencing partner],
+    [*sequence submitted by*], [Who uploaded it to ENA / NCBI],
+    [*data custodian organization name*], [Who decides how the data are used],
+  )
+  #text(size: 17pt, fill: muted)[Use full official names, not abbreviations.]
+]
+
+#slide(part: "PHA4GE minimal fields", title: "When, what and why?")[
+  #table(
+    columns: (auto, 1fr),
+    th[Field][Example for one SSI isolate],
+    [*sample collection date*], [`2026-02-09` (YYYY-MM-DD, to the day)],
+    [*organism*], [_Staphylococcus aureus_],
+    [*purpose of sampling*], [Diagnostic testing],
+    [*purpose of sequencing*], [Cluster/Outbreak investigation],
+  )
+]
+
+#slide(part: "PHA4GE minimal fields", title: "Add your SSI fields")[
+  The 12 PHA4GE fields are the *minimum* for any pathogen. For SSI surveillance, add:
+  - ward · specimen type (e.g. wound swab)
+  - surgery type · surgery date · theatre
+  - AST results
+  #key[Same column names in every hospital = data you can combine.]
+]
+
 #slide(title: "What files come back?")[
   #table(
     columns: (auto, 1fr),
     th[File][What it is],
     [`sample_R1.fastq.gz` + `sample_R2.fastq.gz`], [Illumina reads (a pair)],
-    [`sample.fastq.gz`], [Nanopore reads],
-    [`sample.fasta`], [Assembly (sometimes)],
+    [*sample.fastq.gz*], [Nanopore reads],
+    [*sample.fasta*], [Assembly (sometimes)],
     [QC report], [Sometimes],
   )
   #v(0.3em)

@@ -67,6 +67,28 @@
 - Protect privacy: **never** put names or patient IDs in files you share; use coded study IDs
 - *Speaker note:* Most failed genomic surveillance projects fail on metadata, not sequencing.
 
+### Slides 9a–9d — PHA4GE minimal fields, with examples
+The PHA4GE minimal contextual data specification has 12 fields for any pathogen. Example values for one SSI isolate:
+
+| Field | Example |
+|---|---|
+| specimen collector sample ID | `UGHE-SSI-0001` (the lab's own ID) |
+| specimen source ID | `CASE-0042` (a coded case ID, never a name) |
+| geo_loc name (country) | Rwanda |
+| geo_loc name (state/province/region) | Northern Province |
+| sample collected by | Full official name of the hospital lab |
+| sequenced by | Full official name of the sequencing partner |
+| sequence submitted by | Who uploaded it to ENA / NCBI |
+| data custodian organization name | Who decides how the data are used |
+| sample collection date | `2026-02-09` (ISO 8601, to the day) |
+| organism | *Staphylococcus aureus* |
+| purpose of sampling | Diagnostic testing |
+| purpose of sequencing | Cluster/Outbreak investigation |
+
+- These are the **minimum**. For SSI surveillance, add ward, specimen type, surgery type, surgery date, theatre and AST results.
+- Using the same column names in every hospital means the data can be combined.
+- *Speaker note:* Full official organisation names, not abbreviations. Source: https://github.com/pha4ge/minimal-pathogen-agnostic-contextual-data-specification
+
 ### Slide 10 — What files come back?
 - `sample_R1.fastq.gz`, `sample_R2.fastq.gz` (Illumina) or `sample.fastq.gz` (Nanopore)
 - Sometimes `sample.fasta` (assembly) and a QC report
