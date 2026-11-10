@@ -80,10 +80,11 @@
     - *Click a tip*: find it in the table and timeline
   ][
     #check[
-      + Is there a group that is closely related *and* close in time *and* in the same place?
-      + Is any isolate from the *same ward at the same time* *not* in that group?
-      + Is any isolate in the group from a *different ward*? What could link it?
+      + Coloured by `ward`: which colour is *Surgical Ward B*? How many tips?
+      + Find *P04* in the table: ward and theatre? Now find it on the tree and timeline
+      + Which month has the *most* isolates?
     ]
+    #text(size: 16pt, fill: muted)[Practice only: you'll interpret the patterns in Lab 6.]
   ]
 ]
 

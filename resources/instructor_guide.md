@@ -81,7 +81,7 @@ The template has **fictional** patient profiles:
 - **B1–B8: background profile.** Different hospitals, wards, times, plus **B1**: *same ward and same time* but Theatre 1
 
 **Procedure**
-1. From the tree and SNP matrix (§3b), identify the **tight cluster** (pairwise SNPs small; with this pipeline the Köser cluster is ≤ 29, so Lab 6 uses ≤ 30). Cross-check it with the outbreak isolates described in **Köser et al. 2012**.
+1. From the tree and SNP matrix (§3b), identify the **tight cluster** (pairwise SNPs small, with a clear gap to everything else; with this pipeline the Köser cluster is ≤ 76 and the nearest outsider ≥ 181, so Lab 6 asks trainees to highlight cells < 100 and look for the gap). Cross-check it with the outbreak isolates described in **Köser et al. 2012**.
    - ⚠️ **Do not** infer cluster membership from the B/C suffix in the sample names.
 2. Assign **A-profiles** to the cluster isolates (A1 = the earliest; always include **A4**, the hidden theatre link). Assign **B-profiles** to non-cluster isolates.
    - Put **B1** on a non-cluster isolate, ideally the **same ST** as the cluster but with many SNPs. This is the key teaching point: *same ward, same time, same antibiogram, but not linked*.
@@ -177,12 +177,16 @@ The AST cells in `labs/Lab4_species_typing_amr.md` are filled in for `DRR187559_
 - **E, the row that disagrees:** Gentamicin **S** vs *aac(6')-aph(2'')* present → **disagreement**. Possible explanations: gene not expressed or truncated; AST error; breakpoint or method issues; mixed culture. Report the genotype as **"resistance gene detected, phenotype susceptible: interpret with caution / repeat AST"**. The genome **complements** AST and does **not replace** it for treatment decisions.
 
 ### Labs 5–6
+- **Lab 5, Check yourself B** (practice only): (1) 8 tips are Surgical Ward B (P01, P02, P03, P05, P06, P07, P08, P12). (2) P04: Maternity, Theatre 2. (3) February 2026 (7 of 14 isolates). Don't let groups start interpreting here; the reasoning is Lab 6.
 - **Lab 5, Check yourself A:** (1) 4 STs. (2) AMR determinants are **identical within each ST** (Pathogenwatch, November 2026). So all ten ST22 isolates, outbreak or not, look the same: a shared AMR profile suggests but does **not** prove relatedness.
 - **ST22 AMR profile** (Pathogenwatch report for MRSA_6C): *mecA*, *blaZ* (methicillin, penicillin) · *aacA-aphD*, *aadD* (gentamicin, tobramycin, kanamycin, amikacin) · *ermC* on a rep10 plasmid contig (erythromycin; inducible clindamycin) · **_ileS-2_ on a rep15/rep21 plasmid contig (mupirocin)** · *grlA* S80F + *gyrA* S84L (ciprofloxacin). No vancomycin, linezolid, tetracycline, trimethoprim or rifampicin determinants. (3) Yes: the 7 cluster isolates sit on very short branches.
 *From the November 2026 run: Snippy against the complete ST22 EMRSA-15 genome HE681097.1 → snippy-core → IQ-TREE (cleaned full alignment) and snp-dists (core alignment). Files in `labs/data/`.*
 - **STs in the collection (Pathogenwatch): 4 different STs.** ST22 × 10 (all 7 cluster isolates + 15C, 19B, 20B) · ST1 × 2 (16B, 17B) · ST36 × 1 (18B) · ST5 × 1 (14C). Pathogenwatch took only a few minutes for all 14 genomes.
 - **Cluster (7 isolates) → profile / patient:** MRSA_12C → A1/P01 · MRSA_1B → A2/P02 · MRSA_7C → A3/P03 · **MRSA_8C → A4/P04 (Maternity, Theatre 2: the hidden link)** · MRSA_10C → A5/P05 · MRSA_11C → A6/P06 · MRSA_6C → A7/P07
-- **Within-cluster SNPs:** 9–29 among the six core isolates; **MRSA_6C is 57–76** from them. Köser et al. report one outbreak isolate as a *hypermutator* with more SNPs than the others, which fits 6C. Expect groups to call P07 "uncertain" under a strict threshold: a good discussion of why thresholds are guides, not laws.
+- **Within-cluster SNPs:** 9–29 among the six core isolates; **MRSA_6C is 57–76** from them. Köser et al. report one outbreak isolate as a *hypermutator* with more SNPs than the others, which fits 6C. Lab 6 avoids a hard threshold: highlighting cells **< 100** shows all 7 cluster isolates, and every other pair in the matrix is ≥ 123, so the gap is unmissable. P07/6C appears only in the optional "finish early" box.
+- **Lab 6 Part A:** 14 isolates in total; **7 from Ward B since 1 February** (P01, P02, P03, P05, P06, P07, P08). All are MRSA, cefoxitin R, so the lab report cannot separate them.
+- **Lab 6 Part B table:** cluster = P01–P07 (12C, 1B, 7C, 8C, 10C, 11C, 6C); largest inside distance 76; smallest distance to an outsider 181 (12C–20B).
+- **Lab 6 Part C table:** P01, P02, P03, P05, P06, P07 → in cluster, Theatre 2, **linked**. **P08 → not in cluster, Theatre 1, not linked.** The three questions: (1) No: P08 is not part of it. (2) Yes: P04, Maternity, also operated in Theatre 2. (3) No: closing Ward B would not address the shared theatre.
 - **Closest non-cluster isolate:** MRSA_20B, 181–235 SNPs from the cluster
 - **B1 → MRSA_20B / P08** (Surgical Ward B, same time, Theatre 1): close to the reference lineage but 181+ SNPs from every cluster isolate, and it is **ST22, the same ST as the cluster**: *same ward + same time + same antibiogram + same ST ≠ linked*. Only the SNP distance separates it.
 - **Other non-cluster isolates:** MRSA_16B → B2/P09 · MRSA_15C → B3/P10 · MRSA_19B → B4/P11 · MRSA_14C → B5/P12 · MRSA_18B → B6/P13 · MRSA_17B → B7/P14 (profiles A8 and B8 dropped; patient codes renumbered P01–P14)

@@ -68,10 +68,10 @@ Open the `UGHE Lab 5` collection and look at the **data tables** at the bottom o
 - Open the **Timeline**, which sits behind the data tables: when did each infection happen?
 - **Click a tip** in the tree and find the same isolate in the table and on the timeline
 
-✍️ **Check yourself B:**
-1. Is there a group of isolates that are closely related **and** close in time **and** in the same place?
-2. Is there any isolate from the **same ward at the same time** that is **not** in that group?
-3. Is there any isolate in the group that came from a **different ward**? What could link it?
+✍️ **Check yourself B** *(practice only: you'll interpret the patterns in Lab 6)*:
+1. With the tree coloured by `ward`, which colour is **Surgical Ward B**? How many tips have that colour?
+2. Find patient **P04** in the table. Which ward and theatre? Now find P04 on the tree and on the timeline.
+3. On the timeline, which month has the **most** isolates?
 
 ### B3. Save and share
 - Copy the link to your collection from the browser's address bar. You'll use it in **Lab 6**.

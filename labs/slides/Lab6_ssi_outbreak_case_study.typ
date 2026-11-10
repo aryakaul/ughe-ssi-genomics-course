@@ -36,11 +36,12 @@
   ]
 ]
 
-#slide(title: "Your evidence")[
-  + *Pathogenwatch collection* from Lab 5: tree + timeline + metadata
+#slide(title: "Your job")[
+  #key[Answer one question for the director: *should we close Ward B?*]
+  #v(0.3em)
+  Your evidence:
+  + *Pathogenwatch collection* from Lab 5: tree, timeline, ward, theatre, dates
   + *SNP matrix:* `koser_snp_matrix.tsv` (opens in Excel)
-  + *Pathogenwatch results* from Lab 5: ST and AMR
-  + *Metadata:* `lab6_metadata.csv`
 ]
 
 #slide(title: "Group roles")[
@@ -48,8 +49,8 @@
     columns: (auto, 1fr),
     th[Role][Job],
     [*Genomics lead*], [Reads the tree and SNP matrix],
-    [*Epidemiologist*], [Builds the timeline: who was where, when],
-    [*Clinician / IPC*], [Thinks through transmission routes and actions],
+    [*Epidemiologist*], [Reads the timeline: who was where, when],
+    [*Clinician / IPC*], [How could MRSA spread? What to do?],
     [*Communicator*], [Writes and gives the 5-minute briefing],
   )
 ]
@@ -58,51 +59,53 @@
   #table(
     columns: (auto, 1fr, auto),
     th[Part][What][Time],
-    [A], [Describe the cases], [15 min],
-    [B], [What does the genome say?], [25 min],
+    [A], [Look at the cases], [15 min],
+    [B], [Find the cluster], [25 min],
     [C], [Genomics + epidemiology together], [20 min],
     [D], [Prepare the briefing], [25 min],
     [E], [Briefings to the IPC committee], [15 min],
   )
 ]
 
-#slide(part: "Part A", time: "15 min", title: "Describe the cases")[
-  Sketch an *epidemic curve*: weeks across, number of cases up. \
-  Two colours: *Ward B* and *other wards / hospitals*.
+#slide(part: "Part A", time: "15 min", title: "Look at the cases")[
+  Open your Pathogenwatch collection: *timeline* + *data table*
   #v(0.3em)
   #check(label: "Questions")[
-    + How many MRSA isolates in total? How many from Ward B since 1 February?
-    + Do all Ward B cases look the same on the *lab report*? Does that make them one outbreak?
+    + How many MRSA isolates in total? How many from *Ward B since 1 February*?
+    + Every isolate is MRSA and cefoxitin-resistant on the *lab report*. Are they all one outbreak?
   ]
 ]
 
-#slide(part: "Part B", time: "25 min", title: "What does the genome say?")[
-  + *Sequence types:* group the isolates by ST (Pathogenwatch)
-  + *SNP distances:* highlight all pairs *≤ 30 SNPs* apart
-  + Which isolates form a *cluster*, all close to each other?
-  + *Tree:* colour by *ward*, then by *theatre*. Is the cluster a tight group on short branches?
-  #v(0.2em)
-  #text(size: 16pt, fill: muted)[≤ 30 SNPs: our working threshold for possible recent _S. aureus_ transmission. Published thresholds vary.]
+#slide(part: "Part B", time: "25 min", title: "Find the cluster")[
+  + *Tree:* which isolates sit on very *short branches*?
+  + *SNP matrix* in Excel: Conditional Formatting → Highlight Cells → *Less Than* `100`
+  + Look for the *gap*: a group close to each other, everything else far away
+  + Do the tree and the matrix agree?
 ]
 
-#slide(part: "Part C", time: "20 min", title: "Put genomics and epidemiology together")[
-  For *each* Ward B case since February:
+#slide(part: "Part B", title: "Why look for a gap?")[
+  - Published thresholds for _S. aureus_ are about *15–30 SNPs* (L4)
+  - They are *guides, not laws*
+  #v(0.3em)
+  #key[The clearest sign: a group close together, with a big gap to everything else.]
+]
+
+#slide(part: "Part C", time: "20 min", title: "Genomics + epidemiology together")[
+  Colour the tree by *ward*, then *theatre*. For each *Ward B patient since February*:
   #table(
     columns: (auto, 1fr, 1fr, 1fr),
-    rows: (auto, 30pt),
-    th[Patient][In the cluster?][Ward / theatre / time link?][Linked · not linked · uncertain],
-    [], [], [], [],
-    [], [], [], [],
+    th[Patient][In the cluster?][Theatre][Linked?],
+    [P01], [Yes], [Theatre 2], [*Linked*],
+    [P02 …], [], [], [],
   )
   #text(size: 16pt, fill: muted)[Use the full table in your handout.]
 ]
 
-#slide(part: "Part C", title: "Discuss in your group")[
-  + Is there an outbreak? How confident are you?
-  + Is a Ward B patient *outside* the cluster, though on the ward at the same time?
-  + Is a cluster patient *not* on Ward B? What do they share? → *likely route?*
-  + Are isolates from *other hospitals* in the cluster?
-  + What *other information* would you want?
+#slide(part: "Part C", title: "Three questions")[
+  + *Are all the Ward B cases one outbreak?* \ Look closely at *P08*.
+  + *Is anyone in the cluster not on Ward B?* \ What do they share with the others?
+  + *So, should we close Ward B?* \ Where is the outbreak most likely coming from?
+  #tip(label: "Finished early?")[See the extra questions in your handout.]
 ]
 
 #slide(part: "Part D", time: "25 min", title: "Prepare a 5-minute briefing")[
@@ -147,7 +150,7 @@
 ]
 
 #slide(title: "Take-home messages")[
-  + *Same species + same antibiogram ≠ same outbreak*
+  + *Same ward + same lab result ≠ same outbreak*
   + Genomics finds *hidden links*: shared theatre, staff, equipment
   + Genomics can *prevent unnecessary actions*, like closing a ward
   + Genomics is only useful with *good metadata* and *clear communication*

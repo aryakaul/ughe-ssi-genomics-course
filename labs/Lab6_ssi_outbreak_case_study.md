@@ -13,78 +13,76 @@ The infection prevention and control (IPC) nurse writes to you:
 
 > "Since early February we've had **more MRSA wound infections than usual on Surgical Ward B**. The surgeons say it's bad luck. Theatre staff say it's the ward. The ward says it's the theatre. The hospital director asks whether we should **close Ward B to admissions**. Closing it would cancel about 40 operations a week. The lab stored all MRSA isolates since September, and we got genomes back from our sequencing partner last week. **Can you tell us what's going on by Wednesday's IPC meeting?**"
 
+**Your job:** answer one question for the director: **should we close Ward B?**
+
 ## Your evidence
-1. **Pathogenwatch collection** from Lab 5 (tree + timeline + metadata)
+1. **Your Pathogenwatch collection** from Lab 5: tree, timeline and metadata (ward, theatre, dates) in one place
 2. **SNP distance matrix**: `koser_snp_matrix.tsv` (in `labs/data/`). Open it in Excel.
-3. **Pathogenwatch results** from Lab 5 (ST and AMR per isolate)
-4. **Metadata table** (`lab6_metadata.csv`): patient code, ward, procedure, theatre, surgery date, sample date
 
 ---
 
-## Group roles (rotate if time allows)
+## Group roles
 | Role | Job |
 |---|---|
 | **Genomics lead** | Reads the tree and SNP matrix |
-| **Epidemiologist** | Builds the timeline: who was where, when |
-| **Clinician / IPC** | Thinks through transmission routes and actions |
+| **Epidemiologist** | Reads the timeline and metadata: who was where, when |
+| **Clinician / IPC** | Thinks through how MRSA could spread, and what to do |
 | **Communicator** | Writes and delivers the 5-minute briefing |
 
 ---
 
-## Part A — Describe the cases (15 min)
-Using the metadata, build an **epidemic curve**: sketch it on paper, with weeks along the x-axis and the number of cases on the y-axis.
-
-| Week starting | Ward B cases | Other ward/hospital cases |
-|---|---|---|
-| | | |
-| | | |
+## Part A — Look at the cases (15 min)
+Open your Pathogenwatch collection. Use the **timeline** and the **data table**.
 
 ✍️ Questions:
-1. How many MRSA isolates in total? How many from Ward B since 1 February?
-2. Do **all** Ward B cases look the same from the **lab** report (species + cefoxitin)? Does that mean they are one outbreak?
+1. How many MRSA isolates in total? How many from **Surgical Ward B since 1 February**?
+2. On the routine **lab report**, every isolate is MRSA and cefoxitin-resistant. Does that mean they are all one outbreak?
 
 ---
 
-## Part B — What does the genome say? (25 min)
+## Part B — Find the cluster (25 min)
 
-### B1. Sequence types
-From Pathogenwatch, list each isolate's ST. Group the isolates by ST.
+### B1. The tree
+In Pathogenwatch, look for a group of isolates on very **short branches**. Write down their patient codes.
 
-### B2. SNP distances
-Open the SNP matrix. Each cell is the number of single-letter differences between two isolates.
+### B2. The SNP matrix
+Each cell is the number of genetic differences (SNPs) between two isolates. **Small number = closely related.**
 
-- Highlight all pairs with **≤ 30 SNPs** (our working threshold for possible recent *S. aureus* transmission; published thresholds vary, see L4)
-- Which isolates form a **cluster** (all closely related to each other)?
+1. In Excel, select the numbers → **Conditional Formatting** → **Highlight Cells Rules** → **Less Than** → `100`
+2. Look at the highlighted cells. You should see a clear **gap**: some isolates are all close to each other, and everything else is far away.
 
-| Cluster | Isolates (patient codes) | SNP range within cluster | Closest outside isolate (SNPs) |
-|---|---|---|---|
-| | | | |
+| Cluster isolates (patient codes) | Largest distance inside the cluster | Smallest distance to an isolate outside it |
+|---|---|---|
+| | | |
 
-### B3. Tree
-In your Pathogenwatch collection, colour the tree by **ward**, then by **theatre**. Does the cluster from B2 appear as a tight group on short branches?
+> 💡 **Why look for a gap?** In L4 you saw rough thresholds for *S. aureus* (about 15–30 SNPs). They are guides, not laws. In real data, the clearest sign is a group that is close together with a big gap to everything else.
+
+✍️ Does the cluster from the SNP matrix match the short-branch group on the tree?
 
 ---
 
-## Part C — Put genomics and epidemiology together (20 min)
-For **each** Ward B case since February, decide:
+## Part C — Genomics + epidemiology together (20 min)
+Colour the tree by **ward**, then by **theatre**. Then fill in the table for each **Ward B patient since February**. The first row is done for you.
 
-| Patient | In genomic cluster? | Epi link (ward/theatre/time overlap)? | Conclusion: **linked / not linked / uncertain** |
+| Patient | In the cluster? | Theatre | Linked to the outbreak? |
 |---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| P01 | Yes | Theatre 2 | **Linked** |
+| P02 | | | |
+| P03 | | | |
+| P05 | | | |
+| P06 | | | |
+| P07 | | | |
+| P08 | | | |
 
-✍️ Discussion questions:
-1. Is there an outbreak? How confident are you?
-2. Is there a Ward B patient who is **not** part of the cluster even though they were on the ward at the same time? What does that tell you?
-3. Is there a cluster patient who was **not** on Ward B? What do they have in common with the others? → **What is the likely source or route?**
-4. Do any isolates from **other hospitals** belong to the cluster?
-5. What **other information** would you want? (e.g. staff screening, environmental swabs, theatre logs)
+✍️ **Three questions for your group:**
+1. **Are all the Ward B cases one outbreak?** Look closely at **P08**: same ward, same time, same lab result. Is P08 in the cluster?
+2. **Is anyone in the cluster *not* on Ward B?** What do they have in common with the Ward B cases?
+3. **So, should we close Ward B?** Where is the outbreak most likely coming from?
+
+> 🚀 **If you finish early:**
+> - Do any isolates from **other hospitals** belong to the cluster?
+> - **P07** is in the cluster but a bit further from the others. Why might one isolate collect extra mutations faster?
+> - The cluster carries a mupirocin-resistance gene (see your Lab 5 AMR view). Why does that matter if a **staff carrier** is found and needs decolonising?
 
 ---
 
@@ -117,7 +115,7 @@ Each group gets **5 minutes** to present to the "IPC committee" (the instructor 
 The genomes come from **Köser et al., *N Engl J Med* 2012**: an investigation of a suspected MRSA outbreak in a **special care baby unit** (neonatal unit) in Cambridge, UK. Rapid whole-genome sequencing distinguished the outbreak isolates from unrelated MRSA that looked identical on routine lab tests, and showed transmission that conventional methods had not resolved. A follow-up study (Harris et al., *Lancet Infect Dis* 2013) used genomics to trace transmission into the community and identify a **staff carrier**, which ended the outbreak.
 
 **Take-home messages:**
-1. **Same species + same antibiogram ≠ same outbreak.** Genomics separates linked from unlinked cases.
+1. **Same ward + same lab result ≠ same outbreak.** Genomics separates linked from unlinked cases.
 2. **Genomics finds hidden links** (shared theatre, staff, equipment) that ward-based thinking misses.
 3. **Genomics can prevent unnecessary actions** (closing a ward) as well as trigger necessary ones.
 4. Genomic results are only useful **with good metadata** and **clear communication**.
